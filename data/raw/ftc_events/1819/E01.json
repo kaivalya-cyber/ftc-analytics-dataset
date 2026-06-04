@@ -1,0 +1,136 @@
+{
+  "matches": [
+    {
+      "matchNumber": 17,
+      "description": "Qualification Match 17",
+      "tournamentLevel": "Qualification",
+      "scoreRedFinal": 225,
+      "scoreBlueFinal": 229,
+      "teams": [
+        {
+          "teamNumber": 19905,
+          "station": "Red1",
+          "surrogate": false,
+          "noShow": false
+        },
+        {
+          "teamNumber": 5626,
+          "station": "Red2",
+          "surrogate": false,
+          "noShow": false
+        },
+        {
+          "teamNumber": 8171,
+          "station": "Blue1",
+          "surrogate": false,
+          "noShow": false
+        },
+        {
+          "teamNumber": 18170,
+          "station": "Blue2",
+          "surrogate": false,
+          "noShow": false
+        }
+      ]
+    },
+    {
+      "matchNumber": 18,
+      "description": "Qualification Match 18",
+      "tournamentLevel": "Qualification",
+      "scoreRedFinal": 123,
+      "scoreBlueFinal": 234,
+      "teams": [
+        {
+          "teamNumber": 22030,
+          "station": "Red1",
+          "surrogate": false,
+          "noShow": false
+        },
+        {
+          "teamNumber": 5682,
+          "station": "Red2",
+          "surrogate": false,
+          "noShow": false
+        },
+        {
+          "teamNumber": 8171,
+          "station": "Blue1",
+          "surrogate": false,
+          "noShow": false
+        },
+        {
+          "teamNumber": 21729,
+          "station": "Blue2",
+          "surrogate": false,
+          "noShow": false
+        }
+      ]
+    },
+    {
+      "matchNumber": 19,
+      "description": "Qualification Match 19",
+      "tournamentLevel": "Qualification",
+      "scoreRedFinal": 170,
+      "scoreBlueFinal": 167,
+      "teams": [
+        {
+          "teamNumber": 5682,
+          "station": "Red1",
+          "surrogate": false,
+          "noShow": false
+        },
+        {
+          "teamNumber": 22746,
+          "station": "Red2",
+          "surrogate": false,
+          "noShow": false
+        },
+        {
+          "teamNumber": 16062,
+          "station": "Blue1",
+          "surrogate": false,
+          "noShow": false
+        },
+        {
+          "teamNumber": 1949,
+          "station": "Blue2",
+          "surrogate": false,
+          "noShow": false
+        }
+      ]
+    },
+    {
+      "matchNumber": 20,
+      "description": "Qualification Match 20",
+      "tournamentLevel": "Qualification",
+      "scoreRedFinal": 229,
+      "scoreBlueFinal": 20,
+      "teams": [
+        {
+          "teamNumber": 16062,
+          "station": "Red1",
+          "surrogate": false,
+          "noShow": false
+        },
+        {
+          "teamNumber": 19905,
+          "station": "Red2",
+          "surrogate": false,
+          "noShow": false
+        },
+        {
+          "teamNumber": 8171,
+          "station": "Blue1",
+          "surrogate": false,
+          "noShow": false
+        },
+        {
+          "teamNumber": 5289,
+          "station": "Blue2",
+          "surrogate": false,
+          "noShow": false
+        }
+      ]
+    }
+  ]
+}

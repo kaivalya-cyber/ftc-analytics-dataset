@@ -1,0 +1,1612 @@
+{
+  "event_key": "2021-TX-E02",
+  "event_name": "Mock Event E02",
+  "region_key": "TX",
+  "season_key": "2021",
+  "matches": [
+    {
+      "match_key": "2021-TX-E02-Q-001",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 1",
+      "tournament_level": 1,
+      "match_number": 1,
+      "red_score": 302,
+      "blue_score": 263,
+      "red_min_pen": 10,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "18374",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "9428",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "12905",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "24841",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-002",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 2",
+      "tournament_level": 1,
+      "match_number": 2,
+      "red_score": 130,
+      "blue_score": 270,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "6451",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "17682",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "23204",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "9428",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-003",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 3",
+      "tournament_level": 1,
+      "match_number": 3,
+      "red_score": 184,
+      "blue_score": 154,
+      "red_min_pen": 10,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "24841",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "16724",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "8885",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "6451",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-004",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 4",
+      "tournament_level": 1,
+      "match_number": 4,
+      "red_score": 159,
+      "blue_score": 289,
+      "red_min_pen": 30,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "9152",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "8885",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "24841",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "18899",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-005",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 5",
+      "tournament_level": 1,
+      "match_number": 5,
+      "red_score": 170,
+      "blue_score": 298,
+      "red_min_pen": 30,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "1786",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "18751",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "6451",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "18899",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-006",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 6",
+      "tournament_level": 1,
+      "match_number": 6,
+      "red_score": 174,
+      "blue_score": 266,
+      "red_min_pen": 0,
+      "blue_min_pen": 30,
+      "participants": [
+        {
+          "team_key": "3124",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "2780",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "8364",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "18899",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-007",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 7",
+      "tournament_level": 1,
+      "match_number": 7,
+      "red_score": 179,
+      "blue_score": 273,
+      "red_min_pen": 5,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "2780",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "2365",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "24841",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "9428",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-008",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 8",
+      "tournament_level": 1,
+      "match_number": 8,
+      "red_score": 152,
+      "blue_score": 225,
+      "red_min_pen": 0,
+      "blue_min_pen": 30,
+      "participants": [
+        {
+          "team_key": "16724",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "6034",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "18899",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "10747",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-009",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 9",
+      "tournament_level": 1,
+      "match_number": 9,
+      "red_score": 174,
+      "blue_score": 254,
+      "red_min_pen": 0,
+      "blue_min_pen": 30,
+      "participants": [
+        {
+          "team_key": "1786",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "10747",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "24841",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "18374",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-010",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 10",
+      "tournament_level": 1,
+      "match_number": 10,
+      "red_score": 188,
+      "blue_score": 184,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "18751",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "1786",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "6034",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "18899",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-011",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 11",
+      "tournament_level": 1,
+      "match_number": 11,
+      "red_score": 219,
+      "blue_score": 198,
+      "red_min_pen": 5,
+      "blue_min_pen": 10,
+      "participants": [
+        {
+          "team_key": "6034",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "23204",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "18899",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "1786",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-012",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 12",
+      "tournament_level": 1,
+      "match_number": 12,
+      "red_score": 178,
+      "blue_score": 105,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "9428",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "6034",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "1786",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "3124",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-013",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 13",
+      "tournament_level": 1,
+      "match_number": 13,
+      "red_score": 119,
+      "blue_score": 183,
+      "red_min_pen": 5,
+      "blue_min_pen": 30,
+      "participants": [
+        {
+          "team_key": "21987",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "10747",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "2780",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "6451",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-014",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 14",
+      "tournament_level": 1,
+      "match_number": 14,
+      "red_score": 187,
+      "blue_score": 150,
+      "red_min_pen": 0,
+      "blue_min_pen": 5,
+      "participants": [
+        {
+          "team_key": "16724",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "24841",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "8364",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "10465",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-015",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 15",
+      "tournament_level": 1,
+      "match_number": 15,
+      "red_score": 268,
+      "blue_score": 154,
+      "red_min_pen": 10,
+      "blue_min_pen": 30,
+      "participants": [
+        {
+          "team_key": "9152",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "23204",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "8885",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "6034",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-016",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 16",
+      "tournament_level": 1,
+      "match_number": 16,
+      "red_score": 185,
+      "blue_score": 235,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "24841",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "18588",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "2365",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "8364",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-017",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 17",
+      "tournament_level": 1,
+      "match_number": 17,
+      "red_score": 152,
+      "blue_score": 202,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "9152",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "6034",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "2780",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "9428",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-018",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 18",
+      "tournament_level": 1,
+      "match_number": 18,
+      "red_score": 213,
+      "blue_score": 180,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "18588",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "9428",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "6451",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "8885",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-019",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 19",
+      "tournament_level": 1,
+      "match_number": 19,
+      "red_score": 181,
+      "blue_score": 269,
+      "red_min_pen": 30,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "2365",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "6034",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "6451",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "8364",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-020",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 20",
+      "tournament_level": 1,
+      "match_number": 20,
+      "red_score": 217,
+      "blue_score": 195,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "18751",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "8885",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "23204",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "16724",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-021",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 21",
+      "tournament_level": 1,
+      "match_number": 21,
+      "red_score": 112,
+      "blue_score": 174,
+      "red_min_pen": 5,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "9152",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "10465",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "2365",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "8275",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-022",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 22",
+      "tournament_level": 1,
+      "match_number": 22,
+      "red_score": 140,
+      "blue_score": 202,
+      "red_min_pen": 0,
+      "blue_min_pen": 10,
+      "participants": [
+        {
+          "team_key": "18751",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "17682",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "9428",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "1786",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-023",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 23",
+      "tournament_level": 1,
+      "match_number": 23,
+      "red_score": 130,
+      "blue_score": 233,
+      "red_min_pen": 10,
+      "blue_min_pen": 5,
+      "participants": [
+        {
+          "team_key": "1786",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "3124",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "10465",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "23204",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-024",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 24",
+      "tournament_level": 1,
+      "match_number": 24,
+      "red_score": 223,
+      "blue_score": 103,
+      "red_min_pen": 5,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "16252",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "12905",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "8275",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "10747",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-025",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 25",
+      "tournament_level": 1,
+      "match_number": 25,
+      "red_score": 184,
+      "blue_score": 147,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "12905",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "3124",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "10465",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "18374",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-026",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 26",
+      "tournament_level": 1,
+      "match_number": 26,
+      "red_score": 98,
+      "blue_score": 124,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "8275",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "10465",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "24841",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "21987",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-027",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 27",
+      "tournament_level": 1,
+      "match_number": 27,
+      "red_score": 90,
+      "blue_score": 105,
+      "red_min_pen": 10,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "10465",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "6034",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "21987",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "16724",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-028",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 28",
+      "tournament_level": 1,
+      "match_number": 28,
+      "red_score": 181,
+      "blue_score": 117,
+      "red_min_pen": 5,
+      "blue_min_pen": 10,
+      "participants": [
+        {
+          "team_key": "10747",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "9152",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "16252",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "21987",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-029",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 29",
+      "tournament_level": 1,
+      "match_number": 29,
+      "red_score": 212,
+      "blue_score": 182,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "16252",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "6451",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "18751",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "10747",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "2021-TX-E02-Q-030",
+      "event_key": "2021-TX-E02",
+      "match_name": "Quals 30",
+      "tournament_level": 1,
+      "match_number": 30,
+      "red_score": 219,
+      "blue_score": 181,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "9428",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "3124",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "23204",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "18588",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "2021-TX-E02-E-SF1-1",
+      "event_key": "2021-TX-E02",
+      "match_name": "E-SF1 1",
+      "tournament_level": 2,
+      "match_number": 1,
+      "red_score": 298,
+      "blue_score": 299,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "9428",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "18751",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "23204",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "2365",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue",
+      "playoff_alliances": {
+        "red": [
+          "9428",
+          "18751",
+          "9152"
+        ],
+        "blue": [
+          "23204",
+          "2365",
+          "24841"
+        ]
+      }
+    },
+    {
+      "match_key": "2021-TX-E02-E-SF1-2",
+      "event_key": "2021-TX-E02",
+      "match_name": "E-SF1 2",
+      "tournament_level": 2,
+      "match_number": 2,
+      "red_score": 257,
+      "blue_score": 283,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "9428",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "18751",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "23204",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "2365",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue",
+      "playoff_alliances": {
+        "red": [
+          "9428",
+          "18751",
+          "9152"
+        ],
+        "blue": [
+          "23204",
+          "2365",
+          "24841"
+        ]
+      }
+    },
+    {
+      "match_key": "2021-TX-E02-E-SF1-3",
+      "event_key": "2021-TX-E02",
+      "match_name": "E-SF1 3",
+      "tournament_level": 2,
+      "match_number": 3,
+      "red_score": 274,
+      "blue_score": 297,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "9428",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "18751",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "23204",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "2365",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue",
+      "playoff_alliances": {
+        "red": [
+          "9428",
+          "18751",
+          "9152"
+        ],
+        "blue": [
+          "23204",
+          "2365",
+          "24841"
+        ]
+      }
+    },
+    {
+      "match_key": "2021-TX-E02-E-SF2-1",
+      "event_key": "2021-TX-E02",
+      "match_name": "E-SF2 1",
+      "tournament_level": 2,
+      "match_number": 1,
+      "red_score": 296,
+      "blue_score": 277,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "18374",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "16252",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "18899",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "8364",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red",
+      "playoff_alliances": {
+        "red": [
+          "18374",
+          "16252",
+          "6451"
+        ],
+        "blue": [
+          "18899",
+          "8364",
+          "12905"
+        ]
+      }
+    },
+    {
+      "match_key": "2021-TX-E02-E-SF2-2",
+      "event_key": "2021-TX-E02",
+      "match_name": "E-SF2 2",
+      "tournament_level": 2,
+      "match_number": 2,
+      "red_score": 271,
+      "blue_score": 271,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "18374",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "16252",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "18899",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "8364",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue",
+      "playoff_alliances": {
+        "red": [
+          "18374",
+          "16252",
+          "6451"
+        ],
+        "blue": [
+          "18899",
+          "8364",
+          "12905"
+        ]
+      }
+    },
+    {
+      "match_key": "2021-TX-E02-E-SF2-3",
+      "event_key": "2021-TX-E02",
+      "match_name": "E-SF2 3",
+      "tournament_level": 2,
+      "match_number": 3,
+      "red_score": 256,
+      "blue_score": 292,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "18374",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "16252",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "18899",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "8364",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue",
+      "playoff_alliances": {
+        "red": [
+          "18374",
+          "16252",
+          "6451"
+        ],
+        "blue": [
+          "18899",
+          "8364",
+          "12905"
+        ]
+      }
+    },
+    {
+      "match_key": "2021-TX-E02-E-F-1",
+      "event_key": "2021-TX-E02",
+      "match_name": "E-F 1",
+      "tournament_level": 2,
+      "match_number": 1,
+      "red_score": 288,
+      "blue_score": 247,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "9428",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "18751",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "18374",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "16252",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red",
+      "playoff_alliances": {
+        "red": [
+          "9428",
+          "18751",
+          "9152"
+        ],
+        "blue": [
+          "18374",
+          "16252",
+          "6451"
+        ]
+      }
+    },
+    {
+      "match_key": "2021-TX-E02-E-F-2",
+      "event_key": "2021-TX-E02",
+      "match_name": "E-F 2",
+      "tournament_level": 2,
+      "match_number": 2,
+      "red_score": 261,
+      "blue_score": 250,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "9428",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "18751",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "18374",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "16252",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red",
+      "playoff_alliances": {
+        "red": [
+          "9428",
+          "18751",
+          "9152"
+        ],
+        "blue": [
+          "18374",
+          "16252",
+          "6451"
+        ]
+      }
+    },
+    {
+      "match_key": "2021-TX-E02-E-F-3",
+      "event_key": "2021-TX-E02",
+      "match_name": "E-F 3",
+      "tournament_level": 2,
+      "match_number": 3,
+      "red_score": 269,
+      "blue_score": 284,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "9428",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "18751",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "18374",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "16252",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue",
+      "playoff_alliances": {
+        "red": [
+          "9428",
+          "18751",
+          "9152"
+        ],
+        "blue": [
+          "18374",
+          "16252",
+          "6451"
+        ]
+      }
+    }
+  ],
+  "teams": [
+    {
+      "team_number": 1786,
+      "team_name_short": "Robot Dogs 1786",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2011
+    },
+    {
+      "team_number": 2365,
+      "team_name_short": "Robot Dogs 2365",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2011
+    },
+    {
+      "team_number": 2780,
+      "team_name_short": "Robot Dogs 2780",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2014
+    },
+    {
+      "team_number": 3124,
+      "team_name_short": "Robot Dogs 3124",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2008
+    },
+    {
+      "team_number": 6034,
+      "team_name_short": "Robot Dogs 6034",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2005
+    },
+    {
+      "team_number": 6451,
+      "team_name_short": "Robot Dogs 6451",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2021
+    },
+    {
+      "team_number": 8275,
+      "team_name_short": "Robot Dogs 8275",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2021
+    },
+    {
+      "team_number": 8364,
+      "team_name_short": "Robot Dogs 8364",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2018
+    },
+    {
+      "team_number": 8885,
+      "team_name_short": "Robot Dogs 8885",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2022
+    },
+    {
+      "team_number": 9152,
+      "team_name_short": "Robot Dogs 9152",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2007
+    },
+    {
+      "team_number": 9428,
+      "team_name_short": "Robot Dogs 9428",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2023
+    },
+    {
+      "team_number": 10465,
+      "team_name_short": "Robot Dogs 10465",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2022
+    },
+    {
+      "team_number": 10747,
+      "team_name_short": "Robot Dogs 10747",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2008
+    },
+    {
+      "team_number": 12905,
+      "team_name_short": "Robot Dogs 12905",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2022
+    },
+    {
+      "team_number": 16252,
+      "team_name_short": "Robot Dogs 16252",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2014
+    },
+    {
+      "team_number": 16724,
+      "team_name_short": "Robot Dogs 16724",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2006
+    },
+    {
+      "team_number": 17682,
+      "team_name_short": "Robot Dogs 17682",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2019
+    },
+    {
+      "team_number": 18374,
+      "team_name_short": "Robot Dogs 18374",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2021
+    },
+    {
+      "team_number": 18588,
+      "team_name_short": "Robot Dogs 18588",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2016
+    },
+    {
+      "team_number": 18751,
+      "team_name_short": "Robot Dogs 18751",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2020
+    },
+    {
+      "team_number": 18899,
+      "team_name_short": "Robot Dogs 18899",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2010
+    },
+    {
+      "team_number": 21987,
+      "team_name_short": "Robot Dogs 21987",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2021
+    },
+    {
+      "team_number": 23204,
+      "team_name_short": "Robot Dogs 23204",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2018
+    },
+    {
+      "team_number": 24841,
+      "team_name_short": "Robot Dogs 24841",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2023
+    }
+  ]
+}

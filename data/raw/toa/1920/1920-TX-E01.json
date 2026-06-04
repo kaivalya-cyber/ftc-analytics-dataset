@@ -1,0 +1,1059 @@
+{
+  "event_key": "1920-TX-E01",
+  "event_name": "Mock Event E01",
+  "region_key": "TX",
+  "season_key": "1920",
+  "matches": [
+    {
+      "match_key": "1920-TX-E01-Q-001",
+      "event_key": "1920-TX-E01",
+      "match_name": "Quals 1",
+      "tournament_level": 1,
+      "match_number": 1,
+      "red_score": 148,
+      "blue_score": 148,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "2835",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "7986",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "9112",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "16522",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "tie"
+    },
+    {
+      "match_key": "1920-TX-E01-Q-002",
+      "event_key": "1920-TX-E01",
+      "match_name": "Quals 2",
+      "tournament_level": 1,
+      "match_number": 2,
+      "red_score": 200,
+      "blue_score": 243,
+      "red_min_pen": 5,
+      "blue_min_pen": 30,
+      "participants": [
+        {
+          "team_key": "15650",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "16522",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "9112",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "20149",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "1920-TX-E01-Q-003",
+      "event_key": "1920-TX-E01",
+      "match_name": "Quals 3",
+      "tournament_level": 1,
+      "match_number": 3,
+      "red_score": 197,
+      "blue_score": 145,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "15650",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "16522",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "18215",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "4132",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "1920-TX-E01-Q-004",
+      "event_key": "1920-TX-E01",
+      "match_name": "Quals 4",
+      "tournament_level": 1,
+      "match_number": 4,
+      "red_score": 246,
+      "blue_score": 155,
+      "red_min_pen": 5,
+      "blue_min_pen": 30,
+      "participants": [
+        {
+          "team_key": "4132",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "7986",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "18215",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "16577",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "1920-TX-E01-Q-005",
+      "event_key": "1920-TX-E01",
+      "match_name": "Quals 5",
+      "tournament_level": 1,
+      "match_number": 5,
+      "red_score": 129,
+      "blue_score": 168,
+      "red_min_pen": 0,
+      "blue_min_pen": 10,
+      "participants": [
+        {
+          "team_key": "16577",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "15807",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "9112",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "9138",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "1920-TX-E01-Q-006",
+      "event_key": "1920-TX-E01",
+      "match_name": "Quals 6",
+      "tournament_level": 1,
+      "match_number": 6,
+      "red_score": 172,
+      "blue_score": 130,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "2835",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "7986",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "12045",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "16522",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "1920-TX-E01-Q-007",
+      "event_key": "1920-TX-E01",
+      "match_name": "Quals 7",
+      "tournament_level": 1,
+      "match_number": 7,
+      "red_score": 105,
+      "blue_score": 141,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "4132",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "15807",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "16522",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "23922",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "1920-TX-E01-Q-008",
+      "event_key": "1920-TX-E01",
+      "match_name": "Quals 8",
+      "tournament_level": 1,
+      "match_number": 8,
+      "red_score": 171,
+      "blue_score": 205,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "2835",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "7986",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "9112",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "16577",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "1920-TX-E01-Q-009",
+      "event_key": "1920-TX-E01",
+      "match_name": "Quals 9",
+      "tournament_level": 1,
+      "match_number": 9,
+      "red_score": 208,
+      "blue_score": 148,
+      "red_min_pen": 0,
+      "blue_min_pen": 30,
+      "participants": [
+        {
+          "team_key": "4132",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "9112",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "9138",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "7986",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "1920-TX-E01-Q-010",
+      "event_key": "1920-TX-E01",
+      "match_name": "Quals 10",
+      "tournament_level": 1,
+      "match_number": 10,
+      "red_score": 186,
+      "blue_score": 155,
+      "red_min_pen": 5,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "16577",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "9112",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "15650",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "15807",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "1920-TX-E01-Q-011",
+      "event_key": "1920-TX-E01",
+      "match_name": "Quals 11",
+      "tournament_level": 1,
+      "match_number": 11,
+      "red_score": 178,
+      "blue_score": 77,
+      "red_min_pen": 0,
+      "blue_min_pen": 10,
+      "participants": [
+        {
+          "team_key": "4132",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "15650",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "2835",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "9138",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "1920-TX-E01-Q-012",
+      "event_key": "1920-TX-E01",
+      "match_name": "Quals 12",
+      "tournament_level": 1,
+      "match_number": 12,
+      "red_score": 162,
+      "blue_score": 111,
+      "red_min_pen": 0,
+      "blue_min_pen": 30,
+      "participants": [
+        {
+          "team_key": "23922",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "4132",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "2835",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "15807",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "1920-TX-E01-Q-013",
+      "event_key": "1920-TX-E01",
+      "match_name": "Quals 13",
+      "tournament_level": 1,
+      "match_number": 13,
+      "red_score": 220,
+      "blue_score": 205,
+      "red_min_pen": 10,
+      "blue_min_pen": 5,
+      "participants": [
+        {
+          "team_key": "15650",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "9138",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "9112",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "15807",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "1920-TX-E01-Q-014",
+      "event_key": "1920-TX-E01",
+      "match_name": "Quals 14",
+      "tournament_level": 1,
+      "match_number": 14,
+      "red_score": 176,
+      "blue_score": 244,
+      "red_min_pen": 5,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "16522",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "16577",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "7986",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "15650",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "1920-TX-E01-Q-015",
+      "event_key": "1920-TX-E01",
+      "match_name": "Quals 15",
+      "tournament_level": 1,
+      "match_number": 15,
+      "red_score": 202,
+      "blue_score": 128,
+      "red_min_pen": 0,
+      "blue_min_pen": 5,
+      "participants": [
+        {
+          "team_key": "9112",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "23922",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "20149",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "16522",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red"
+    },
+    {
+      "match_key": "1920-TX-E01-Q-016",
+      "event_key": "1920-TX-E01",
+      "match_name": "Quals 16",
+      "tournament_level": 1,
+      "match_number": 16,
+      "red_score": 148,
+      "blue_score": 234,
+      "red_min_pen": 30,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "18215",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "16522",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "16577",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "9112",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue"
+    },
+    {
+      "match_key": "1920-TX-E01-E-SF1-1",
+      "event_key": "1920-TX-E01",
+      "match_name": "E-SF1 1",
+      "tournament_level": 2,
+      "match_number": 1,
+      "red_score": 197,
+      "blue_score": 212,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "15650",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "4132",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "12045",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "20149",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue",
+      "playoff_alliances": {
+        "red": [
+          "15650",
+          "4132",
+          "15807"
+        ],
+        "blue": [
+          "12045",
+          "20149",
+          "16522"
+        ]
+      }
+    },
+    {
+      "match_key": "1920-TX-E01-E-SF1-2",
+      "event_key": "1920-TX-E01",
+      "match_name": "E-SF1 2",
+      "tournament_level": 2,
+      "match_number": 2,
+      "red_score": 214,
+      "blue_score": 188,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "15650",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "4132",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "12045",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "20149",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "red",
+      "playoff_alliances": {
+        "red": [
+          "15650",
+          "4132",
+          "15807"
+        ],
+        "blue": [
+          "12045",
+          "20149",
+          "16522"
+        ]
+      }
+    },
+    {
+      "match_key": "1920-TX-E01-E-SF1-3",
+      "event_key": "1920-TX-E01",
+      "match_name": "E-SF1 3",
+      "tournament_level": 2,
+      "match_number": 3,
+      "red_score": 189,
+      "blue_score": 199,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "15650",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "4132",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "12045",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "20149",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue",
+      "playoff_alliances": {
+        "red": [
+          "15650",
+          "4132",
+          "15807"
+        ],
+        "blue": [
+          "12045",
+          "20149",
+          "16522"
+        ]
+      }
+    },
+    {
+      "match_key": "1920-TX-E01-E-SF2-1",
+      "event_key": "1920-TX-E01",
+      "match_name": "E-SF2 1",
+      "tournament_level": 2,
+      "match_number": 1,
+      "red_score": 188,
+      "blue_score": 194,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "7986",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "23922",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "9112",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "9138",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue",
+      "playoff_alliances": {
+        "red": [
+          "7986",
+          "23922",
+          "18215"
+        ],
+        "blue": [
+          "9112",
+          "9138",
+          "16577"
+        ]
+      }
+    },
+    {
+      "match_key": "1920-TX-E01-E-SF2-2",
+      "event_key": "1920-TX-E01",
+      "match_name": "E-SF2 2",
+      "tournament_level": 2,
+      "match_number": 2,
+      "red_score": 174,
+      "blue_score": 242,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "7986",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "23922",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "9112",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "9138",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue",
+      "playoff_alliances": {
+        "red": [
+          "7986",
+          "23922",
+          "18215"
+        ],
+        "blue": [
+          "9112",
+          "9138",
+          "16577"
+        ]
+      }
+    },
+    {
+      "match_key": "1920-TX-E01-E-SF2-3",
+      "event_key": "1920-TX-E01",
+      "match_name": "E-SF2 3",
+      "tournament_level": 2,
+      "match_number": 3,
+      "red_score": 212,
+      "blue_score": 212,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "7986",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "23922",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "9112",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "9138",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue",
+      "playoff_alliances": {
+        "red": [
+          "7986",
+          "23922",
+          "18215"
+        ],
+        "blue": [
+          "9112",
+          "9138",
+          "16577"
+        ]
+      }
+    },
+    {
+      "match_key": "1920-TX-E01-E-F-1",
+      "event_key": "1920-TX-E01",
+      "match_name": "E-F 1",
+      "tournament_level": 2,
+      "match_number": 1,
+      "red_score": 199,
+      "blue_score": 211,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "15650",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "4132",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "7986",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "23922",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue",
+      "playoff_alliances": {
+        "red": [
+          "15650",
+          "4132",
+          "15807"
+        ],
+        "blue": [
+          "7986",
+          "23922",
+          "18215"
+        ]
+      }
+    },
+    {
+      "match_key": "1920-TX-E01-E-F-2",
+      "event_key": "1920-TX-E01",
+      "match_name": "E-F 2",
+      "tournament_level": 2,
+      "match_number": 2,
+      "red_score": 191,
+      "blue_score": 213,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "15650",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "4132",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "7986",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "23922",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue",
+      "playoff_alliances": {
+        "red": [
+          "15650",
+          "4132",
+          "15807"
+        ],
+        "blue": [
+          "7986",
+          "23922",
+          "18215"
+        ]
+      }
+    },
+    {
+      "match_key": "1920-TX-E01-E-F-3",
+      "event_key": "1920-TX-E01",
+      "match_name": "E-F 3",
+      "tournament_level": 2,
+      "match_number": 3,
+      "red_score": 188,
+      "blue_score": 230,
+      "red_min_pen": 0,
+      "blue_min_pen": 0,
+      "participants": [
+        {
+          "team_key": "15650",
+          "station": 11,
+          "station_status": 1
+        },
+        {
+          "team_key": "4132",
+          "station": 12,
+          "station_status": 1
+        },
+        {
+          "team_key": "7986",
+          "station": 21,
+          "station_status": 1
+        },
+        {
+          "team_key": "23922",
+          "station": 22,
+          "station_status": 1
+        }
+      ],
+      "winner": "blue",
+      "playoff_alliances": {
+        "red": [
+          "15650",
+          "4132",
+          "15807"
+        ],
+        "blue": [
+          "7986",
+          "23922",
+          "18215"
+        ]
+      }
+    }
+  ],
+  "teams": [
+    {
+      "team_number": 2835,
+      "team_name_short": "Robot Dogs 2835",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2010
+    },
+    {
+      "team_number": 4132,
+      "team_name_short": "Robot Dogs 4132",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2006
+    },
+    {
+      "team_number": 7986,
+      "team_name_short": "Robot Dogs 7986",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2006
+    },
+    {
+      "team_number": 9112,
+      "team_name_short": "Robot Dogs 9112",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2010
+    },
+    {
+      "team_number": 9138,
+      "team_name_short": "Robot Dogs 9138",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2016
+    },
+    {
+      "team_number": 12045,
+      "team_name_short": "Robot Dogs 12045",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2012
+    },
+    {
+      "team_number": 15650,
+      "team_name_short": "Robot Dogs 15650",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2009
+    },
+    {
+      "team_number": 15807,
+      "team_name_short": "Robot Dogs 15807",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2013
+    },
+    {
+      "team_number": 16522,
+      "team_name_short": "Robot Dogs 16522",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2009
+    },
+    {
+      "team_number": 16577,
+      "team_name_short": "Robot Dogs 16577",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2016
+    },
+    {
+      "team_number": 18215,
+      "team_name_short": "Robot Dogs 18215",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2005
+    },
+    {
+      "team_number": 20149,
+      "team_name_short": "Robot Dogs 20149",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2014
+    },
+    {
+      "team_number": 23922,
+      "team_name_short": "Robot Dogs 23922",
+      "country": "USA",
+      "state_code": "TX",
+      "rookie_year": 2007
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+Model,Pearson r,p-value,MAE,Top-1 Acc,Top-2 Acc
+Naive OPR Sum,0.1578,0.559451,1.4231,0.25,0.5
+Linear Regression,0.406,0.118697,1.1753,0.75,0.75
