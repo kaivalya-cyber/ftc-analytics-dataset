@@ -11,6 +11,8 @@ A clean, structured, public dataset of FIRST Tech Challenge (FTC) match results 
 | Seasons Covered | 6 (1819–2324) |
 | Events | 53 |
 | Total Matches | 1,762 |
+| Qualification Matches | 1,512 |
+| Playoff Matches | 250 |
 | Unique Teams | 902 |
 | Unique Regions | 10 |
 | Mean Score | 132.61 |
@@ -108,7 +110,7 @@ A clean, structured, public dataset of FIRST Tech Challenge (FTC) match results 
 ### Installation
 
 ```bash
-git clone https://github.com/kaivalyasingh/ftc-analytics-dataset.git
+git clone https://github.com/kaivalya-cyber/ftc-analytics-dataset.git
 cd ftc-analytics-dataset
 pip install -r requirements.txt
 ```
@@ -184,7 +186,7 @@ If you use this dataset in your research, please cite:
   author       = {Kaivalya Singh},
   title        = {{FTC Open Analytics Dataset}},
   year         = {2026},
-  howpublished = {\url{https://github.com/kaivalyasingh/ftc-analytics-dataset}},
+  howpublished = {\url{https://github.com/kaivalya-cyber/ftc-analytics-dataset}},
   note         = {FIRST Tech Challenge match data (2018-19 to 2023-24) with OPR metrics and ML benchmarks}
 }
 ```
