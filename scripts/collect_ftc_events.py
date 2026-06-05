@@ -169,18 +169,33 @@ def main():
                 pbar.set_postfix_str(f"Saved {len(ftc_data['matches'])} deduplicated matches")
                 time.sleep(0.05)
         else:
-            # In real mode, query the list of events from TOA first (or use event codes in TOA raw data)
-            # Fetch event codes from local TOA JSON files to know what to request
-            toa_season_dir = Path("data/raw/toa") / season
-            event_codes = []
-            if toa_season_dir.exists():
-                event_codes = [f.stem.split("-")[2] for f in toa_season_dir.glob("*.json")]
-                
-            if not event_codes:
-                print(f"[!] No local TOA files found for season {season}. Skipping FTC Events fetch.")
+            # In real mode, query FTC Events API directly for event list and matches
+            # First, fetch the list of events for this season
+            events_url = f"{BASE_URL}/{api_season_year}/events"
+            try:
+                events_resp = requests.get(events_url, headers=headers, timeout=15)
+                if events_resp.status_code != 200:
+                    print(f"\n[Error] Failed to fetch events list for season {season}: {events_resp.status_code}")
+                    continue
+                events_data = events_resp.json()
+                events_list = events_data.get("events", [])
+            except Exception as e:
+                print(f"\n[Error] Exception fetching events list for season {season}: {e}")
                 continue
                 
-            for event_code in tqdm(event_codes, desc=f"Fetching season {season} from FTC Events"):
+            if not events_list:
+                print(f"[!] No events found for season {season} in FTC Events API. Skipping.")
+                continue
+                
+            # Limit to first 5 events to respect rate limits
+            events_to_fetch = events_list[:5]
+            print(f"Found {len(events_list)} events. Fetching matches for first {len(events_to_fetch)}.")
+            
+            for event in tqdm(events_to_fetch, desc=f"Fetching season {season} from FTC Events"):
+                event_code = event.get("code")
+                if not event_code:
+                    continue
+                    
                 url = f"{BASE_URL}/{api_season_year}/matches/{event_code}"
                 
                 try:
@@ -189,37 +204,22 @@ def main():
                         matches_payload = resp.json()
                         matches = matches_payload.get("matches", [])
                         
-                        # Deduplicate matches
-                        deduped_matches = []
-                        for m in matches:
-                            # Construct match_key: season-TX-event_code-Q-match_number
-                            # Note: FTC API returns matches with tournament levels.
-                            # We check and format match key
-                            level = m.get("tournamentLevel", "Qualification")
-                            lvl_code = "Q" if level == "Qualification" else "E"
-                            m_num = m.get("matchNumber", 0)
-                            match_key = f"{season}-TX-{event_code}-{lvl_code}-{m_num:03d}"
-                            
-                            if match_key not in toa_keys:
-                                deduped_matches.append(m)
-                                
-                        ftc_data = {"matches": deduped_matches}
+                        # Store event metadata alongside matches
+                        ftc_data = {
+                            "event_code": event_code,
+                            "event_name": event.get("name", ""),
+                            "region": event.get("regionCode", ""),
+                            "type": event.get("typeName", ""),
+                            "matches": matches
+                        }
                         
                         file_path = season_dir / f"{event_code}.json"
                         with open(file_path, "w") as f:
                             json.dump(ftc_data, f, indent=2)
                     else:
-                        print(f"\n[Error] Failed to fetch {url}: {resp.status_code} - {resp.text}")
-                        # Fallback to mock for this event
-                        ftc_data = generate_mock_ftc_match_data(season, event_code, toa_keys)
-                        with open(season_dir / f"{event_code}.json", "w") as f:
-                            json.dump(ftc_data, f, indent=2)
+                        print(f"\n[Error] Failed to fetch matches for {event_code}: {resp.status_code}")
                 except Exception as e:
-                    print(f"\n[Error] Exception during fetch of {url}: {e}")
-                    # Fallback to mock
-                    ftc_data = generate_mock_ftc_match_data(season, event_code, toa_keys)
-                    with open(season_dir / f"{event_code}.json", "w") as f:
-                        json.dump(ftc_data, f, indent=2)
+                    print(f"\n[Error] Exception fetching matches for {event_code}: {e}")
                 time.sleep(1.0) # Rate limiting politeness
 
     print("\n[+] FTC Events data collection completed successfully!")

@@ -1,0 +1,848 @@
+{
+  "event_code": "19ILM3",
+  "event_name": "Peoria Meet 3 Quest",
+  "region": "USIL",
+  "type": "League Meet",
+  "matches": [
+    {
+      "actualStartTime": "2020-01-04T06:18:00",
+      "description": "Qualification 1",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 1,
+      "scoreRedFinal": 32,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 5,
+      "scoreBlueFinal": 72,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 15,
+      "postResultTime": "2020-01-04T06:18:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 11235,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 14167,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 15005,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 13310,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T06:25:00",
+      "description": "Qualification 2",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 2,
+      "scoreRedFinal": 54,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 10,
+      "scoreBlueFinal": 58,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 30,
+      "postResultTime": "2020-01-04T06:25:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 8648,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 9788,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 11283,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 16277,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T06:32:00",
+      "description": "Qualification 3",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 3,
+      "scoreRedFinal": 39,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 15,
+      "scoreBlueFinal": 19,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 14,
+      "postResultTime": "2020-01-04T06:32:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 9985,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 16244,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 9163,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 7317,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T06:39:00",
+      "description": "Qualification 4",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 4,
+      "scoreRedFinal": 49,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 69,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 25,
+      "postResultTime": "2020-01-04T06:39:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 14469,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 14723,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 12644,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 8899,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T06:46:00",
+      "description": "Qualification 5",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 5,
+      "scoreRedFinal": 48,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 10,
+      "scoreBlueFinal": 36,
+      "scoreBlueFoul": 5,
+      "scoreBlueAuto": 7,
+      "postResultTime": "2020-01-04T06:46:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 15005,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 9985,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 7317,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 16277,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T06:53:00",
+      "description": "Qualification 6",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 6,
+      "scoreRedFinal": 35,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 5,
+      "scoreBlueFinal": 26,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 5,
+      "postResultTime": "2020-01-04T06:53:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 14469,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 8648,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 11235,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 9163,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T07:00:00",
+      "description": "Qualification 7",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 7,
+      "scoreRedFinal": 74,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 52,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 15,
+      "postResultTime": "2020-01-04T07:00:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 13310,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 8899,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 9788,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 12644,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T07:07:00",
+      "description": "Qualification 8",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 8,
+      "scoreRedFinal": 56,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 47,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 10,
+      "postResultTime": "2020-01-04T07:07:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 14167,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 14723,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 11283,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 16244,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T07:14:00",
+      "description": "Qualification 9",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 9,
+      "scoreRedFinal": 22,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 15,
+      "scoreBlueFinal": 70,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2020-01-04T07:14:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 8899,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 15005,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 9788,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 9163,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T07:21:00",
+      "description": "Qualification 10",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 10,
+      "scoreRedFinal": 31,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 56,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 19,
+      "postResultTime": "2020-01-04T07:21:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 11283,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 11235,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 9985,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 12644,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T07:28:00",
+      "description": "Qualification 11",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 11,
+      "scoreRedFinal": 47,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 5,
+      "scoreBlueFinal": 69,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 25,
+      "postResultTime": "2020-01-04T07:28:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 7317,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 14167,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 14723,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 8648,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T07:35:00",
+      "description": "Qualification 12",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 12,
+      "scoreRedFinal": 34,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 15,
+      "scoreBlueFinal": 45,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 15,
+      "postResultTime": "2020-01-04T07:35:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 13310,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 14469,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 16277,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 16244,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T07:42:00",
+      "description": "Qualification 13",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 13,
+      "scoreRedFinal": 50,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 81,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2020-01-04T07:42:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 9788,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 11235,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 15005,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 14723,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T07:49:00",
+      "description": "Qualification 14",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 14,
+      "scoreRedFinal": 41,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 15,
+      "scoreBlueFinal": 60,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 24,
+      "postResultTime": "2020-01-04T07:49:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 16277,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 12644,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 9163,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 14167,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T07:56:00",
+      "description": "Qualification 15",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 15,
+      "scoreRedFinal": 49,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 6,
+      "scoreBlueFinal": 41,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 5,
+      "postResultTime": "2020-01-04T07:56:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 16244,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 9985,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 8899,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 8648,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T08:03:00",
+      "description": "Qualification 16",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 16,
+      "scoreRedFinal": 81,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 0,
+      "scoreBlueFinal": 47,
+      "scoreBlueFoul": 40,
+      "scoreBlueAuto": 22,
+      "postResultTime": "2020-01-04T08:03:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 14469,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 7317,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 13310,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 11283,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T08:10:00",
+      "description": "Qualification 17",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 17,
+      "scoreRedFinal": 89,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 53,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2020-01-04T08:10:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 12644,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 15005,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 8648,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 16244,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T08:17:00",
+      "description": "Qualification 18",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 18,
+      "scoreRedFinal": 51,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 15,
+      "scoreBlueFinal": 71,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2020-01-04T08:17:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 14167,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 14469,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 9985,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 9788,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T08:24:00",
+      "description": "Qualification 19",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 19,
+      "scoreRedFinal": 25,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 12,
+      "scoreBlueFinal": 31,
+      "scoreBlueFoul": 5,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2020-01-04T08:24:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 16277,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 11235,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 8899,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 7317,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    },
+    {
+      "actualStartTime": "2020-01-04T08:31:00",
+      "description": "Qualification 20",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 20,
+      "scoreRedFinal": 63,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 25,
+      "scoreBlueFinal": 27,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 15,
+      "postResultTime": "2020-01-04T08:31:00",
+      "videoURL": "",
+      "teams": [
+        {
+          "teamNumber": 13310,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 14723,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 9163,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 11283,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2020-09-11T21:23:46.818"
+    }
+  ]
+}

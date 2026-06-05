@@ -1,0 +1,2654 @@
+{
+  "event_code": "AUCMP",
+  "event_name": "Australian National Championship",
+  "region": "AU",
+  "type": "Championship",
+  "matches": [
+    {
+      "actualStartTime": "2022-12-10T13:01:06.059",
+      "description": "Qualification 1",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 1,
+      "scoreRedFinal": 103,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 69,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2022-12-10T13:05:12.239",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 21035,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20667,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18228,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:37.903"
+    },
+    {
+      "actualStartTime": "2022-12-10T13:08:20.669",
+      "description": "Qualification 2",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 2,
+      "scoreRedFinal": 31,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 4,
+      "scoreBlueFinal": 102,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 24,
+      "postResultTime": "2022-12-10T13:12:24.497",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18362,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11145,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15210,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11322,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:37.734"
+    },
+    {
+      "actualStartTime": "2022-12-10T13:13:49.343",
+      "description": "Qualification 3",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 3,
+      "scoreRedFinal": 94,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 40,
+      "scoreBlueFinal": 143,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 48,
+      "postResultTime": "2022-12-10T13:18:00.909",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11258,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 16492,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12554,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18359,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.335"
+    },
+    {
+      "actualStartTime": "2022-12-10T13:18:41.124",
+      "description": "Qualification 4",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 4,
+      "scoreRedFinal": 41,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 10,
+      "scoreBlueFinal": 103,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 40,
+      "postResultTime": "2022-12-10T13:22:34.575",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 14339,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 16526,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18363,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19451,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.328"
+    },
+    {
+      "actualStartTime": "2022-12-10T13:26:26.916",
+      "description": "Qualification 5",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 5,
+      "scoreRedFinal": 80,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 45,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 23,
+      "postResultTime": "2022-12-10T13:30:44.126",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18003,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18306,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11323,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19480,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.316"
+    },
+    {
+      "actualStartTime": "2022-12-10T13:31:20.931",
+      "description": "Qualification 6",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 6,
+      "scoreRedFinal": 45,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 143,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 25,
+      "postResultTime": "2022-12-10T13:36:56.685",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 21511,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14349,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 13626,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14579,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.305"
+    },
+    {
+      "actualStartTime": "2022-12-10T13:37:57.862",
+      "description": "Qualification 7",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 7,
+      "scoreRedFinal": 64,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 134,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2022-12-10T13:42:52.816",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 22116,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11148,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19457,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15145,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.278"
+    },
+    {
+      "actualStartTime": "2022-12-10T13:55:22.646",
+      "description": "Qualification 8",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 8,
+      "scoreRedFinal": 67,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 43,
+      "scoreBlueFinal": 55,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 40,
+      "postResultTime": "2022-12-10T13:59:19.217",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 16337,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15216,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11146,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 13710,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.266"
+    },
+    {
+      "actualStartTime": "2022-12-10T14:01:41.591",
+      "description": "Qualification 9",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 9,
+      "scoreRedFinal": 193,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 36,
+      "scoreBlueFinal": 92,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2022-12-10T14:07:15.837",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 17101,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19450,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11147,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.084"
+    },
+    {
+      "actualStartTime": "2022-12-10T14:10:46.913",
+      "description": "Qualification 10",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 10,
+      "scoreRedFinal": 93,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 23,
+      "scoreBlueFinal": 116,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 30,
+      "postResultTime": "2022-12-10T14:14:48.14",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 16492,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 16526,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11322,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18228,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.254"
+    },
+    {
+      "actualStartTime": "2022-12-10T14:16:20.83",
+      "description": "Qualification 11",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 11,
+      "scoreRedFinal": 92,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 123,
+      "scoreBlueFoul": 50,
+      "scoreBlueAuto": 48,
+      "postResultTime": "2022-12-10T14:21:23.258",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18362,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12554,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19451,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19480,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.062"
+    },
+    {
+      "actualStartTime": "2022-12-10T14:39:10.419",
+      "description": "Qualification 12",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 12,
+      "scoreRedFinal": 134,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 67,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 24,
+      "postResultTime": "2022-12-10T14:43:00.486",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11323,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14349,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18359,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11145,
+          "station": "Blue2",
+          "dq": true,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.241"
+    },
+    {
+      "actualStartTime": "2022-12-10T14:46:36.602",
+      "description": "Qualification 13",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 13,
+      "scoreRedFinal": 54,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 4,
+      "scoreBlueFinal": 77,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 21,
+      "postResultTime": "2022-12-10T14:52:32.128",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 13626,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18363,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18306,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22116,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.006"
+    },
+    {
+      "actualStartTime": "2022-12-10T14:56:50.063",
+      "description": "Qualification 14",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 14,
+      "scoreRedFinal": 103,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 23,
+      "scoreBlueFinal": 18,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 0,
+      "postResultTime": "2022-12-10T15:01:24.57",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11148,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18003,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21035,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 13710,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.224"
+    },
+    {
+      "actualStartTime": "2022-12-10T15:06:55.675",
+      "description": "Qualification 15",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 15,
+      "scoreRedFinal": 87,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 145,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 36,
+      "postResultTime": "2022-12-10T15:10:40.401",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 20667,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11258,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 16337,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:37.937"
+    },
+    {
+      "actualStartTime": "2022-12-10T15:12:00.895",
+      "description": "Qualification 16",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 16,
+      "scoreRedFinal": 55,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 0,
+      "scoreBlueFinal": 159,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 50,
+      "postResultTime": "2022-12-10T15:16:46.713",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 14380,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17101,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15145,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14339,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.218"
+    },
+    {
+      "actualStartTime": "2022-12-10T15:26:06.249",
+      "description": "Qualification 17",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 17,
+      "scoreRedFinal": 48,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 22,
+      "scoreBlueFinal": 94,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2022-12-10T15:29:55.058",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19457,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15216,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14579,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19450,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.324"
+    },
+    {
+      "actualStartTime": "2022-12-10T15:31:45.26",
+      "description": "Qualification 18",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 18,
+      "scoreRedFinal": 142,
+      "scoreRedFoul": 20,
+      "scoreRedAuto": 28,
+      "scoreBlueFinal": 113,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2022-12-10T15:36:54.049",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 15210,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11146,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21511,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11147,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:37.878"
+    },
+    {
+      "actualStartTime": "2022-12-10T15:38:21.764",
+      "description": "Qualification 19",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 19,
+      "scoreRedFinal": 22,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 0,
+      "scoreBlueFinal": 58,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2022-12-10T15:42:24.977",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11323,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 13626,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19451,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11322,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.137"
+    },
+    {
+      "actualStartTime": "2022-12-10T15:42:46.369",
+      "description": "Qualification 20",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 20,
+      "scoreRedFinal": 86,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 4,
+      "scoreBlueFinal": 149,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 35,
+      "postResultTime": "2022-12-10T15:46:56.097",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 22116,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18228,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14349,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18003,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.2"
+    },
+    {
+      "actualStartTime": "2022-12-10T15:48:37.287",
+      "description": "Qualification 21",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 21,
+      "scoreRedFinal": 84,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 0,
+      "scoreBlueFinal": 12,
+      "scoreBlueFoul": 40,
+      "scoreBlueAuto": 0,
+      "postResultTime": "2022-12-10T15:52:55.824",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 12554,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21035,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11145,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 16337,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.312"
+    },
+    {
+      "actualStartTime": "2022-12-10T15:58:17.613",
+      "description": "Qualification 22",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 22,
+      "scoreRedFinal": 131,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 40,
+      "scoreBlueFinal": 194,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 56,
+      "postResultTime": "2022-12-10T16:02:38.094",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 16492,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19480,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15145,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:37.833"
+    },
+    {
+      "actualStartTime": "2022-12-10T16:04:50.105",
+      "description": "Qualification 23",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 23,
+      "scoreRedFinal": 133,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 44,
+      "scoreBlueFinal": 98,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2022-12-10T16:10:16.638",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11148,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18363,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15216,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.121"
+    },
+    {
+      "actualStartTime": "2022-12-10T16:12:09.523",
+      "description": "Qualification 24",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 24,
+      "scoreRedFinal": 92,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 71,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 24,
+      "postResultTime": "2022-12-10T16:20:06.276",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 13710,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11147,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18359,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14339,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.184"
+    },
+    {
+      "actualStartTime": "2022-12-10T16:22:34.631",
+      "description": "Qualification 25",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 25,
+      "scoreRedFinal": 90,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 118,
+      "scoreBlueFoul": 20,
+      "scoreBlueAuto": 40,
+      "postResultTime": "2022-12-10T16:26:43.99",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 17101,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19457,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11258,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15210,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.3"
+    },
+    {
+      "actualStartTime": "2022-12-10T16:29:14.198",
+      "description": "Qualification 26",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 26,
+      "scoreRedFinal": 124,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 45,
+      "scoreBlueFinal": 92,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 40,
+      "postResultTime": "2022-12-10T16:33:31.423",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18306,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14579,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20667,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11146,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:37.799"
+    },
+    {
+      "actualStartTime": "2022-12-10T16:35:17.994",
+      "description": "Qualification 27",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 27,
+      "scoreRedFinal": 114,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 45,
+      "scoreBlueFinal": 92,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2022-12-10T16:39:06.523",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 21511,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19450,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 16526,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.108"
+    },
+    {
+      "actualStartTime": "2022-12-10T16:43:36.796",
+      "description": "Qualification 28",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 28,
+      "scoreRedFinal": 235,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 56,
+      "scoreBlueFinal": 32,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 23,
+      "postResultTime": "2022-12-10T16:47:37.363",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 12993,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22116,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19451,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21035,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.165"
+    },
+    {
+      "actualStartTime": "2022-12-10T16:50:27.796",
+      "description": "Qualification 29",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 29,
+      "scoreRedFinal": 84,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 23,
+      "scoreBlueFinal": 77,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2022-12-10T16:54:30.063",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 15145,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11322,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12554,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15216,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.271"
+    },
+    {
+      "actualStartTime": "2022-12-11T08:31:06.95",
+      "description": "Qualification 30",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 30,
+      "scoreRedFinal": 145,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 40,
+      "scoreBlueFinal": 102,
+      "scoreBlueFoul": 60,
+      "scoreBlueAuto": 40,
+      "postResultTime": "2022-12-11T08:36:16.967",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 13710,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18228,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11145,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 13626,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:37.746"
+    },
+    {
+      "actualStartTime": "2022-12-11T08:38:16.557",
+      "description": "Qualification 31",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 31,
+      "scoreRedFinal": 135,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 40,
+      "scoreBlueFinal": 73,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2022-12-11T08:43:06.998",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18362,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 16492,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19457,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11323,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.102"
+    },
+    {
+      "actualStartTime": "2022-12-11T08:46:46.318",
+      "description": "Qualification 32",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 32,
+      "scoreRedFinal": 145,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 41,
+      "scoreBlueFinal": 123,
+      "scoreBlueFoul": 20,
+      "scoreBlueAuto": 40,
+      "postResultTime": "2022-12-11T08:50:59.452",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18003,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14579,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11147,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11258,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.159"
+    },
+    {
+      "actualStartTime": "2022-12-11T08:53:20.964",
+      "description": "Qualification 33",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 33,
+      "scoreRedFinal": 173,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 59,
+      "scoreBlueFinal": 118,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 25,
+      "postResultTime": "2022-12-11T08:57:52.851",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 14349,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19480,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11146,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.212"
+    },
+    {
+      "actualStartTime": "2022-12-11T08:58:47.465",
+      "description": "Qualification 34",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 34,
+      "scoreRedFinal": 131,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 44,
+      "scoreBlueFinal": 94,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2022-12-11T09:02:44.17",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 16526,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11148,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17101,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18306,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.259"
+    },
+    {
+      "actualStartTime": "2022-12-11T09:08:01.013",
+      "description": "Qualification 35",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 35,
+      "scoreRedFinal": 55,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 88,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 40,
+      "postResultTime": "2022-12-11T09:12:48.915",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 15210,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 16337,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19450,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14339,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.32"
+    },
+    {
+      "actualStartTime": "2022-12-11T09:14:09.415",
+      "description": "Qualification 36",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 36,
+      "scoreRedFinal": 96,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 44,
+      "scoreBlueFinal": 101,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 40,
+      "postResultTime": "2022-12-11T09:17:25.579",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18359,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20667,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18363,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21511,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.344"
+    },
+    {
+      "actualStartTime": "2022-12-11T09:20:54.327",
+      "description": "Qualification 37",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 37,
+      "scoreRedFinal": 166,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 64,
+      "scoreBlueFinal": 73,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 40,
+      "postResultTime": "2022-12-11T09:24:47.185",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11322,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19457,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 13710,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:37.861"
+    },
+    {
+      "actualStartTime": "2022-12-11T09:36:43.397",
+      "description": "Qualification 38",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 38,
+      "scoreRedFinal": 134,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 24,
+      "scoreBlueFinal": 61,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2022-12-11T09:42:21.337",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18362,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15145,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 13626,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21035,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.078"
+    },
+    {
+      "actualStartTime": "2022-12-11T09:43:15.252",
+      "description": "Qualification 39",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 39,
+      "scoreRedFinal": 97,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 30,
+      "scoreBlueFinal": 152,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2022-12-11T09:47:45.414",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11147,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15216,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 16492,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14349,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.127"
+    },
+    {
+      "actualStartTime": "2022-12-11T09:51:08.271",
+      "description": "Qualification 40",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 40,
+      "scoreRedFinal": 94,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 3,
+      "scoreBlueFinal": 135,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 30,
+      "postResultTime": "2022-12-11T09:56:42.361",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 16526,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11323,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11146,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12554,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.154"
+    },
+    {
+      "actualStartTime": "2022-12-11T09:58:45.061",
+      "description": "Qualification 41",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 41,
+      "scoreRedFinal": 88,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 124,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 40,
+      "postResultTime": "2022-12-11T10:04:18.69",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 14579,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11148,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19451,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18228,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.189"
+    },
+    {
+      "actualStartTime": "2022-12-11T10:05:37.391",
+      "description": "Qualification 42",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 42,
+      "scoreRedFinal": 106,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 24,
+      "scoreBlueFinal": 140,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 23,
+      "postResultTime": "2022-12-11T10:09:14.448",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18306,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18359,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15210,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.248"
+    },
+    {
+      "actualStartTime": "2022-12-11T10:12:40.061",
+      "description": "Qualification 43",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 43,
+      "scoreRedFinal": 91,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 40,
+      "scoreBlueFinal": 54,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 22,
+      "postResultTime": "2022-12-11T10:17:48.026",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19450,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20667,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11145,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18003,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.308"
+    },
+    {
+      "actualStartTime": "2022-12-11T10:18:27.335",
+      "description": "Qualification 44",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 44,
+      "scoreRedFinal": 75,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 30,
+      "scoreBlueFinal": 165,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 21,
+      "postResultTime": "2022-12-11T10:22:11.572",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 21511,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14339,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22116,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11258,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.339"
+    },
+    {
+      "actualStartTime": "2022-12-11T10:24:27.611",
+      "description": "Qualification 45",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 45,
+      "scoreRedFinal": 97,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 84,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 44,
+      "postResultTime": "2022-12-11T10:30:01.671",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 17101,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18363,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19480,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 16337,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:37.817"
+    },
+    {
+      "actualStartTime": "2022-12-11T10:31:31.475",
+      "description": "Qualification 46",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 46,
+      "scoreRedFinal": 89,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 131,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 50,
+      "postResultTime": "2022-12-11T10:35:42.276",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 14349,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 16526,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15145,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 13710,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.038"
+    },
+    {
+      "actualStartTime": "2022-12-11T10:36:53.497",
+      "description": "Qualification 47",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 47,
+      "scoreRedFinal": 126,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 44,
+      "scoreBlueFinal": 128,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 40,
+      "postResultTime": "2022-12-11T10:50:58.505",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 13626,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12554,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11147,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11148,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.116"
+    },
+    {
+      "actualStartTime": "2022-12-11T10:53:43.471",
+      "description": "Qualification 48",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 48,
+      "scoreRedFinal": 128,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 40,
+      "scoreBlueFinal": 200,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 60,
+      "postResultTime": "2022-12-11T10:59:22.492",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 14579,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.143"
+    },
+    {
+      "actualStartTime": "2022-12-11T11:01:06.847",
+      "description": "Qualification 49",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 49,
+      "scoreRedFinal": 76,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 111,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 0,
+      "postResultTime": "2022-12-11T11:07:34.77",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 16492,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19451,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18306,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19450,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.177"
+    },
+    {
+      "actualStartTime": "2022-12-11T11:09:11.654",
+      "description": "Qualification 50",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 50,
+      "scoreRedFinal": 110,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 40,
+      "scoreBlueFinal": 86,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 23,
+      "postResultTime": "2022-12-11T11:14:06.861",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 15210,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22116,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20667,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11323,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.232"
+    },
+    {
+      "actualStartTime": "2022-12-11T11:15:24.489",
+      "description": "Qualification 51",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 51,
+      "scoreRedFinal": 80,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 40,
+      "scoreBlueFinal": 187,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 55,
+      "postResultTime": "2022-12-11T11:18:54.03",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11322,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 16337,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18003,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21511,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.282"
+    },
+    {
+      "actualStartTime": "2022-12-11T11:26:09.445",
+      "description": "Qualification 52",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 52,
+      "scoreRedFinal": 76,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 26,
+      "scoreBlueFinal": 85,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 23,
+      "postResultTime": "2022-12-11T11:29:33.836",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 17101,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21035,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18359,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15216,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:38.331"
+    },
+    {
+      "actualStartTime": "2022-12-11T11:31:17.63",
+      "description": "Qualification 53",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 53,
+      "scoreRedFinal": 84,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 42,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2022-12-11T11:35:11.903",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19457,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11145,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19480,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14339,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:37.769"
+    },
+    {
+      "actualStartTime": "2022-12-11T11:37:18.377",
+      "description": "Qualification 54",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 54,
+      "scoreRedFinal": 131,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 44,
+      "scoreBlueFinal": 106,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 40,
+      "postResultTime": "2022-12-11T11:40:58.854",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11146,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11258,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18228,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18363,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:37.966"
+    },
+    {
+      "actualStartTime": "2022-12-11T13:08:28.877",
+      "description": "Semifinal 1 Match 1",
+      "tournamentLevel": "SEMIFINAL",
+      "series": 1,
+      "matchNumber": 1,
+      "scoreRedFinal": 267,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 79,
+      "scoreBlueFinal": 113,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 41,
+      "postResultTime": "2022-12-11T13:13:31.26",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 12993,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14349,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11258,
+          "station": "Red3",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 18003,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22116,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15210,
+          "station": "Blue3",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:39.027"
+    },
+    {
+      "actualStartTime": "2022-12-11T13:17:05.189",
+      "description": "Semifinal 2 Match 1",
+      "tournamentLevel": "SEMIFINAL",
+      "series": 2,
+      "matchNumber": 1,
+      "scoreRedFinal": 122,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 45,
+      "scoreBlueFinal": 189,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 45,
+      "postResultTime": "2022-12-11T13:22:46.082",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11146,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11147,
+          "station": "Blue3",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 12554,
+          "station": "Red3",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11148,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:39.02"
+    },
+    {
+      "actualStartTime": "2022-12-11T13:25:42.642",
+      "description": "Semifinal 1 Match 2",
+      "tournamentLevel": "SEMIFINAL",
+      "series": 1,
+      "matchNumber": 2,
+      "scoreRedFinal": 161,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 64,
+      "scoreBlueFinal": 129,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 45,
+      "postResultTime": "2022-12-11T13:30:11.244",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 12993,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14349,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 11258,
+          "station": "Red3",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18003,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22116,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 15210,
+          "station": "Blue3",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:39.013"
+    },
+    {
+      "actualStartTime": "2022-12-11T13:33:48.994",
+      "description": "Semifinal 2 Match 2",
+      "tournamentLevel": "SEMIFINAL",
+      "series": 2,
+      "matchNumber": 2,
+      "scoreRedFinal": 150,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 45,
+      "scoreBlueFinal": 143,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 44,
+      "postResultTime": "2022-12-11T13:38:06.196",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11148,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11146,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12554,
+          "station": "Red3",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11147,
+          "station": "Blue3",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:39.006"
+    },
+    {
+      "actualStartTime": "2022-12-11T13:50:00.327",
+      "description": "Semifinal 2 Match 3",
+      "tournamentLevel": "SEMIFINAL",
+      "series": 2,
+      "matchNumber": 3,
+      "scoreRedFinal": 139,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 40,
+      "scoreBlueFinal": 209,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 53,
+      "postResultTime": "2022-12-11T13:57:03.701",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11146,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11147,
+          "station": "Blue3",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 12554,
+          "station": "Red3",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 11148,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:39.033"
+    },
+    {
+      "actualStartTime": "2022-12-11T14:09:07.72",
+      "description": "Finals Match 1",
+      "tournamentLevel": "FINAL",
+      "series": 0,
+      "matchNumber": 1,
+      "scoreRedFinal": 255,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 79,
+      "scoreBlueFinal": 147,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 49,
+      "postResultTime": "2022-12-11T14:13:39.373",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 14349,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11258,
+          "station": "Red3",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11147,
+          "station": "Blue3",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:39.045"
+    },
+    {
+      "actualStartTime": "2022-12-11T14:23:16.916",
+      "description": "Finals Match 2",
+      "tournamentLevel": "FINAL",
+      "series": 0,
+      "matchNumber": 2,
+      "scoreRedFinal": 207,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 64,
+      "scoreBlueFinal": 95,
+      "scoreBlueFoul": 40,
+      "scoreBlueAuto": 25,
+      "postResultTime": "2022-12-11T14:28:39.574",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11147,
+          "station": "Blue3",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14349,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11258,
+          "station": "Red3",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2022-12-16T02:29:39.039"
+    }
+  ]
+}

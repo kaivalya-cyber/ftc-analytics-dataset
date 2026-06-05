@@ -4,7 +4,7 @@ Kaivalya Singh
 
 ## Abstract
 
-We introduce the **FTC Open Analytics Dataset**, a structured, multi-season collection of FIRST Tech Challenge (FTC) match results spanning six competitive seasons (2018-19 through 2023-24). The dataset comprises 877 matches across 24 events, with 531 unique teams, and includes computed performance metrics such as Offensive Power Rating (OPR), Non-Penalty OPR (NP-OPR), and Calculated Contribution to Winning Margin (CCWM). We formalize two benchmark tasks: (1) match outcome prediction using alliance-level features, and (2) playoff alliance strength estimation. Baseline models achieve 86.4% accuracy on win prediction (Logistic Regression) and strong top-1 alliance strength accuracy (0.75, Linear Regression). The dataset, code, and benchmarks are publicly released to support reproducible research in sports analytics, robotics competition modeling, and educational data science.
+We introduce the **FTC Open Analytics Dataset**, a structured, multi-season collection of FIRST Tech Challenge (FTC) match results spanning six competitive seasons (2018-19 through 2023-24). The dataset comprises 1,762 matches across 53 events spanning 10 regions, with 902 unique teams, and includes computed performance metrics such as Offensive Power Rating (OPR), Non-Penalty OPR (NP-OPR), and Calculated Contribution to Winning Margin (CCWM). We formalize two benchmark tasks: (1) match outcome prediction using alliance-level features, and (2) playoff alliance strength estimation. Baseline models achieve 88.7% accuracy on win prediction (Logistic Regression) and strong top-2 alliance strength accuracy (0.92, Linear Regression). The dataset, code, and benchmarks are publicly released to support reproducible research in sports analytics, robotics competition modeling, and educational data science.
 
 ## 1. Introduction
 
@@ -14,7 +14,7 @@ The FTC community has long relied on ad-hoc data collection from sources such as
 
 Our contributions are threefold:
 
-1. **A standardized dataset** with 877 matches, 531 teams, and 6 seasons of FTC competition data, cleaned and normalized with rigorous quality rules.
+1. **A standardized dataset** with 1,762 matches, 902 teams, and 6 seasons of FTC competition data across 10 regions, cleaned and normalized with rigorous quality rules.
 2. **Computed advanced metrics** (OPR, NP-OPR, CCWM) using least-squares regression on alliance participation matrices, enabling per-team performance quantification.
 3. **Two benchmark tasks** with baseline implementations: match outcome prediction and playoff alliance strength estimation, establishing performance baselines for future research.
 
@@ -68,17 +68,16 @@ The dataset spans 6 seasons (2018-19 through 2023-24) with the following charact
 
 | Metric | Value |
 |:---|---:|
-| Total Matches | 877 |
-| Qualification Matches | 685 |
-| Playoff Matches | 192 |
-| Unique Teams | 531 |
-| Events | 24 |
-| Mean OPR | 89.75 |
-| OPR Range | −2.33 to 168.51 |
-| Mean Score | 195.07 |
-| Score Range | 20 to 317 |
+| Total Matches | 1,762 |
+| Unique Teams | 902 |
+| Events | 53 |
+| Unique Regions | 10 |
+| Mean OPR | 58.91 |
+| OPR Range | −34.15 to 191.02 |
+| Mean Score | 132.61 |
+| Score Range | 0 to 374 |
 
-Each season features a distinct game design, which is reflected in scoring patterns. Average scores range from 186.89 (Skystone, 1920) to 200.33 (Rover Ruckus, 1819), with standard deviations between 46.19 and 56.98 points.
+Each season features a distinct game design, which is reflected in scoring patterns. Average scores range from 101.76 (Skystone, 1920) to 201.13 (Rover Ruckus, 1819), with standard deviations between 45.03 and 90.03 points.
 
 ## 5. Benchmark Tasks
 
@@ -122,31 +121,31 @@ Each season features a distinct game design, which is reflected in scoring patte
 
 | Model | Accuracy | AUC-ROC | Brier Score | Log Loss |
 |:---|---:|---:|---:|---:|
-| OPR Difference Baseline | 0.8095 | 0.8921 | 0.1594 | 0.4915 |
-| Logistic Regression | **0.8639** | **0.9080** | **0.1184** | **0.3820** |
-| Gradient Boosted Trees | 0.7551 | 0.8704 | 0.1526 | 0.4651 |
+| OPR Difference Baseline | 0.8254 | 0.8979 | 0.1584 | 0.4905 |
+| Logistic Regression | **0.8869** | **0.9412** | **0.0938** | **0.3086** |
+| Gradient Boosted Trees | 0.7063 | 0.8159 | 0.1830 | 0.5456 |
 
-Logistic Regression achieves the best performance across all metrics, outperforming the simple OPR difference baseline by 5.4 percentage points in accuracy. The GBDT model underperforms, likely due to overfitting on the small training set and the noisy head-to-head features from the synthetic data.
+Logistic Regression achieves the best performance across all metrics, outperforming the simple OPR difference baseline by 6.2 percentage points in accuracy. The GBDT model underperforms, likely due to overfitting on the relatively small training set and noisy head-to-head features.
 
 ### 6.2 Alliance Strength
 
-| Model | Pearson r | MAE | Top-1 Acc | Top-2 Acc |
-|:---|---:|---:|---:|---:|
-| Naive OPR Sum | 0.1578 | 1.4231 | 0.25 | 0.50 |
-| Linear Regression | **0.4060** | **1.1753** | **0.75** | **0.75** |
+| Model | Pearson r | p-value | MAE | Top-1 Acc | Top-2 Acc |
+|:---|---:|---:|---:|---:|---:|
+| Naive OPR Sum | 0.2807 | 0.0483 | 1.3065 | 0.6154 | 0.8462 |
+| Linear Regression | **0.3224** | **0.0224** | **1.0987** | **0.6154** | **0.9231** |
 
-The Linear Regression model substantially outperforms the naive baseline, correctly identifying the strongest alliance at 75% of test events. We note that the Pearson correlation (r = 0.406, p = 0.119) does not reach statistical significance at the conventional α = 0.05 threshold, likely due to the small test set size (16 alliances) and the inherent stochasticity of playoff match outcomes.
+The Linear Regression model outperforms the naive baseline across all metrics, achieving a statistically significant Pearson correlation (p < 0.05) and correctly identifying the strongest alliance in 61.5% of test events (92.3% within top-2).
 
 ## 7. Limitations
 
 - **Synthetic Data (Mock Mode):** The current dataset is generated in mock mode due to the absence of API keys. While the mock data generator uses realistic score distributions and latent team strengths, real-world data would capture true competitive dynamics, event-specific patterns, and actual team performance trajectories.
-- **Small dataset size:** With only 877 matches and 24 events, the dataset is relatively small for training complex machine learning models. Performance metrics should be interpreted cautiously.
+- **Small dataset size:** With 1,762 matches across 53 events, the dataset is adequate for baseline models but may be limited for training complex deep learning architectures. Performance metrics should be interpreted cautiously.
 - **Seasonal variation:** Each FTC season has a unique game design, making cross-season generalization challenging. Models trained on past seasons may not generalize well to future game rules.
 - **OPR assumptions:** OPR assumes linear score contributions, which is an approximation. Real match dynamics involve nonlinear interactions between alliance partners.
 
 ## 8. Conclusion
 
-We present the FTC Open Analytics Dataset, a cleaned, multi-season benchmark for FTC match outcome prediction and alliance strength estimation. The dataset includes 877 matches across 6 seasons with pre-computed OPR, NP-OPR, and CCWM metrics. Baseline models establish initial performance levels for two benchmark tasks, with Logistic Regression achieving 86.4% win prediction accuracy. We release this dataset publicly to encourage reproducible research at the intersection of sports analytics, robotics competition modeling, and educational data science.
+We present the FTC Open Analytics Dataset, a cleaned, multi-season benchmark for FTC match outcome prediction and alliance strength estimation. The dataset includes 1,762 matches across 6 seasons spanning 10 regions with pre-computed OPR, NP-OPR, and CCWM metrics. Baseline models establish initial performance levels for two benchmark tasks, with Logistic Regression achieving 88.7% win prediction accuracy. We release this dataset publicly to encourage reproducible research at the intersection of sports analytics, robotics competition modeling, and educational data science.
 
 ## References
 

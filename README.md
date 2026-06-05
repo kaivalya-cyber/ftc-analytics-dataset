@@ -9,24 +9,24 @@ A clean, structured, public dataset of FIRST Tech Challenge (FTC) match results 
 | Metric | Value |
 |:---|---:|
 | Seasons Covered | 6 (1819–2324) |
-| Events | 24 |
-| Total Matches | 877 |
-| Qualification Matches | 685 |
-| Playoff Matches | 192 |
-| Unique Teams | 531 |
-| Mean Score | 195.07 |
-| Score Range | 20 – 317 |
+| Events | 53 |
+| Total Matches | 1,762 |
+| Unique Teams | 902 |
+| Unique Regions | 10 |
+| Mean Score | 132.61 |
+| Score Range | 0 – 374 |
+| Mean OPR | 58.91 |
 
 ### Matches Per Season
 
 | Season | Matches | Mean Score | Median Score | Std Dev |
 |:---|---:|---:|---:|---:|
-| 1819 (Rover Ruckus) | 133 | 200.33 | 205.00 | 46.19 |
-| 1920 (Skystone) | 142 | 186.89 | 191.00 | 51.17 |
-| 2021 (Ultimate Goal) | 156 | 196.95 | 189.50 | 53.70 |
-| 2122 (Freight Frenzy) | 128 | 195.33 | 197.00 | 52.77 |
-| 2223 (Power Play) | 171 | 194.43 | 195.00 | 53.35 |
-| 2324 (Centerstage) | 147 | 196.75 | 203.00 | 56.98 |
+| 1819 (Rover Ruckus) | 129 | 201.13 | 205.00 | 45.03 |
+| 1920 (Skystone) | 315 | 101.76 | 59.50 | 84.01 |
+| 2021 (Ultimate Goal) | 221 | 148.92 | 167.00 | 90.03 |
+| 2122 (Freight Frenzy) | 212 | 152.98 | 159.00 | 74.13 |
+| 2223 (Power Play) | 377 | 136.27 | 133.00 | 78.96 |
+| 2324 (Centerstage) | 508 | 116.04 | 96.00 | 81.22 |
 
 ## Data Schema
 
@@ -87,16 +87,16 @@ A clean, structured, public dataset of FIRST Tech Challenge (FTC) match results 
 
 | Model | Accuracy | AUC-ROC | Brier Score | Log Loss |
 |:---|---:|---:|---:|---:|
-| OPR Difference Baseline | 0.8095 | 0.8921 | 0.1594 | 0.4915 |
-| Logistic Regression | 0.8639 | 0.9080 | 0.1184 | 0.3820 |
-| Gradient Boosted Trees | 0.7551 | 0.8704 | 0.1526 | 0.4651 |
+| OPR Difference Baseline | 0.8254 | 0.8979 | 0.1584 | 0.4905 |
+| Logistic Regression | 0.8869 | 0.9412 | 0.0938 | 0.3086 |
+| Gradient Boosted Trees | 0.7063 | 0.8159 | 0.1830 | 0.5456 |
 
 ### Alliance Strength Prediction
 
-| Model | Pearson r | MAE | Top-1 Acc | Top-2 Acc |
-|:---|---:|---:|---:|---:|
-| Naive OPR Sum | 0.1578 | 1.4231 | 0.25 | 0.50 |
-| Linear Regression | 0.4060 | 1.1753 | 0.75 | 0.75 |
+| Model | Pearson r | p-value | MAE | Top-1 Acc | Top-2 Acc |
+|:---|---:|---:|---:|---:|---:|
+| Naive OPR Sum | 0.2807 | 0.0483 | 1.3065 | 0.6154 | 0.8462 |
+| Linear Regression | 0.3224 | 0.0224 | 1.0987 | 0.6154 | 0.9231 |
 
 ## Quick Start
 

@@ -1,0 +1,81 @@
+{
+  "event_key": "2223-GA-GNGLS",
+  "event_name": "GA N Georgia League Scrimmage",
+  "region_key": "GA",
+  "season_key": "2223",
+  "matches": [],
+  "teams": [
+    {
+      "event_participant_key": "2223-GA-GNGLS-T0",
+      "event_key": "2223-GA-GNGLS",
+      "team_key": "5898",
+      "team_number": 5898,
+      "is_active": true,
+      "card_status": null,
+      "team": {
+        "team_key": "5898",
+        "region_key": "GA",
+        "league_key": "",
+        "team_number": 5898,
+        "team_name_short": "Galactic Lions - Andromeda",
+        "team_name_long": "Northeast Georgia Health System/SIS, LLC/Constellation Energy/Friends & Families of Lakeview Robotics/BAE I&S&Lakeview Academy",
+        "robot_name": "",
+        "last_active": "2526",
+        "city": "Gainesville",
+        "state_prov": "GA",
+        "zip_code": 0,
+        "country": "USA",
+        "rookie_year": 2012,
+        "website": ""
+      }
+    },
+    {
+      "event_participant_key": "2223-GA-GNGLS-T1",
+      "event_key": "2223-GA-GNGLS",
+      "team_key": "7673",
+      "team_number": 7673,
+      "is_active": true,
+      "card_status": null,
+      "team": {
+        "team_key": "7673",
+        "region_key": "GA",
+        "league_key": "",
+        "team_number": 7673,
+        "team_name_short": "Dragons & Tiaras FTC 7673",
+        "team_name_long": "Tennessee Valley Authority-TNV/Department of Defense STEM/FIRST/Tithelo LLC/Home Depot/Walmart&Towns Co High School",
+        "robot_name": "",
+        "last_active": "2526",
+        "city": "Hiawassee",
+        "state_prov": "GA",
+        "zip_code": 0,
+        "country": "USA",
+        "rookie_year": 2013,
+        "website": "https://sites.google.com/site/tchsftcteamnotebook/"
+      }
+    },
+    {
+      "event_participant_key": "2223-GA-GNGLS-T2",
+      "event_key": "2223-GA-GNGLS",
+      "team_key": "18443",
+      "team_number": 18443,
+      "is_active": true,
+      "card_status": null,
+      "team": {
+        "team_key": "18443",
+        "region_key": "GA",
+        "league_key": "",
+        "team_number": 18443,
+        "team_name_short": "Galactic Lions - Cygnus",
+        "team_name_long": "Lakeview Academy",
+        "robot_name": "",
+        "last_active": "2526",
+        "city": "Gainesville",
+        "state_prov": "GA",
+        "zip_code": 0,
+        "country": "USA",
+        "rookie_year": 2020,
+        "website": ""
+      }
+    }
+  ]
+}

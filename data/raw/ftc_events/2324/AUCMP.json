@@ -1,0 +1,2612 @@
+{
+  "event_code": "AUCMP",
+  "event_name": "Australian National Championship",
+  "region": "AU",
+  "type": "Championship",
+  "matches": [
+    {
+      "actualStartTime": "2023-12-09T13:05:30.955",
+      "description": "Qualification 1",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 1,
+      "scoreRedFinal": 29,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 0,
+      "scoreBlueFinal": 121,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 50,
+      "postResultTime": "2023-12-09T13:09:49.978",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 21035,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11323,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15215,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.185"
+    },
+    {
+      "actualStartTime": "2023-12-09T13:11:25.431",
+      "description": "Qualification 2",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 2,
+      "scoreRedFinal": 113,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 156,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 70,
+      "postResultTime": "2023-12-09T13:14:52.694",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18360,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11146,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11148,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21511,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.144"
+    },
+    {
+      "actualStartTime": "2023-12-09T13:16:49.803",
+      "description": "Qualification 3",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 3,
+      "scoreRedFinal": 42,
+      "scoreRedFoul": 20,
+      "scoreRedAuto": 5,
+      "scoreBlueFinal": 55,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 0,
+      "postResultTime": "2023-12-09T13:21:10.792",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19377,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23335,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11145,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23369,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.438"
+    },
+    {
+      "actualStartTime": "2023-12-09T13:22:46.193",
+      "description": "Qualification 4",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 4,
+      "scoreRedFinal": 114,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 118,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 70,
+      "postResultTime": "2023-12-09T13:26:18.634",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18228,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19218,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11322,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12554,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.426"
+    },
+    {
+      "actualStartTime": "2023-12-09T13:32:16.829",
+      "description": "Qualification 5",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 5,
+      "scoreRedFinal": 113,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 126,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 35,
+      "postResultTime": "2023-12-09T13:36:18.568",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 17556,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23331,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23636,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19296,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.409"
+    },
+    {
+      "actualStartTime": "2023-12-09T13:38:30.073",
+      "description": "Qualification 6",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 6,
+      "scoreRedFinal": 70,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 41,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 8,
+      "postResultTime": "2023-12-09T13:42:29.779",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11505,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15144,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19480,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18611,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.39"
+    },
+    {
+      "actualStartTime": "2023-12-09T13:44:41.881",
+      "description": "Qualification 7",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 7,
+      "scoreRedFinal": 97,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 8,
+      "scoreBlueFinal": 107,
+      "scoreBlueFoul": 70,
+      "scoreBlueAuto": 5,
+      "postResultTime": "2023-12-09T13:51:05.249",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19341,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23875,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22407,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.372"
+    },
+    {
+      "actualStartTime": "2023-12-09T13:52:13.493",
+      "description": "Qualification 8",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 8,
+      "scoreRedFinal": 56,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 5,
+      "scoreBlueFinal": 94,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 28,
+      "postResultTime": "2023-12-09T13:56:29.059",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 15145,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18363,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14579,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18359,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.36"
+    },
+    {
+      "actualStartTime": "2023-12-09T13:58:00.694",
+      "description": "Qualification 9",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 9,
+      "scoreRedFinal": 133,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 48,
+      "scoreBlueFinal": 64,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 25,
+      "postResultTime": "2023-12-09T14:01:45.257",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18306,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19450,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18439,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 13710,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.221"
+    },
+    {
+      "actualStartTime": "2023-12-09T14:03:47.516",
+      "description": "Qualification 10",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 10,
+      "scoreRedFinal": 69,
+      "scoreRedFoul": 120,
+      "scoreRedAuto": 13,
+      "scoreBlueFinal": 173,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 8,
+      "postResultTime": "2023-12-09T14:08:59.585",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 17101,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 24963,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11143,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.349"
+    },
+    {
+      "actualStartTime": "2023-12-09T14:11:36.489",
+      "description": "Qualification 11",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 11,
+      "scoreRedFinal": 154,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 11,
+      "scoreBlueFinal": 27,
+      "scoreBlueFoul": 70,
+      "scoreBlueAuto": 5,
+      "postResultTime": "2023-12-09T14:22:09.817",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11146,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11323,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 16188,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22116,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.209"
+    },
+    {
+      "actualStartTime": "2023-12-09T14:24:26.359",
+      "description": "Qualification 12",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 12,
+      "scoreRedFinal": 48,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 5,
+      "scoreBlueFinal": 36,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 0,
+      "postResultTime": "2023-12-09T14:28:52.74",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 21511,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21035,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23369,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19296,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.337"
+    },
+    {
+      "actualStartTime": "2023-12-09T14:30:51.649",
+      "description": "Qualification 13",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 13,
+      "scoreRedFinal": 74,
+      "scoreRedFoul": 60,
+      "scoreRedAuto": 18,
+      "scoreBlueFinal": 196,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 70,
+      "postResultTime": "2023-12-09T14:35:19.092",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 17556,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18228,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18360,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15215,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.198"
+    },
+    {
+      "actualStartTime": "2023-12-09T14:39:45.103",
+      "description": "Qualification 14",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 14,
+      "scoreRedFinal": 48,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 23,
+      "scoreBlueFinal": 19,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 5,
+      "postResultTime": "2023-12-09T14:43:39.299",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11322,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19480,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19377,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23636,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.326"
+    },
+    {
+      "actualStartTime": "2023-12-09T14:45:32.068",
+      "description": "Qualification 15",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 15,
+      "scoreRedFinal": 140,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 13,
+      "scoreBlueFinal": 17,
+      "scoreBlueFoul": 70,
+      "scoreBlueAuto": 0,
+      "postResultTime": "2023-12-09T14:49:38.703",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11145,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11148,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18611,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18359,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.192"
+    },
+    {
+      "actualStartTime": "2023-12-09T14:53:17.346",
+      "description": "Qualification 16",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 16,
+      "scoreRedFinal": 158,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 25,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 5,
+      "postResultTime": "2023-12-09T14:57:59.553",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18363,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23335,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.318"
+    },
+    {
+      "actualStartTime": "2023-12-09T14:59:54.193",
+      "description": "Qualification 17",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 17,
+      "scoreRedFinal": 77,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 30,
+      "scoreBlueFinal": 94,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 28,
+      "postResultTime": "2023-12-09T15:03:28.651",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 12554,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 24963,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18306,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14579,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.42"
+    },
+    {
+      "actualStartTime": "2023-12-09T15:05:50.758",
+      "description": "Qualification 18",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 18,
+      "scoreRedFinal": 170,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 52,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 25,
+      "postResultTime": "2023-12-09T15:10:04.721",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 13710,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23331,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15144,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19218,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.178"
+    },
+    {
+      "actualStartTime": "2023-12-09T15:13:02.861",
+      "description": "Qualification 19",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 19,
+      "scoreRedFinal": 55,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 5,
+      "scoreBlueFinal": 110,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 30,
+      "postResultTime": "2023-12-09T15:17:58.802",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11143,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 16188,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18439,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19341,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.257"
+    },
+    {
+      "actualStartTime": "2023-12-09T15:19:23.121",
+      "description": "Qualification 20",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 20,
+      "scoreRedFinal": 64,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 30,
+      "scoreBlueFinal": 144,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 35,
+      "postResultTime": "2023-12-09T15:23:12.804",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23875,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15145,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22116,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17101,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.307"
+    },
+    {
+      "actualStartTime": "2023-12-09T15:25:31.11",
+      "description": "Qualification 21",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 21,
+      "scoreRedFinal": 164,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 40,
+      "scoreBlueFinal": 148,
+      "scoreBlueFoul": 60,
+      "scoreBlueAuto": 50,
+      "postResultTime": "2023-12-09T15:29:09.616",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 12993,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22407,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11505,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19450,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.403"
+    },
+    {
+      "actualStartTime": "2023-12-09T15:38:59.242",
+      "description": "Qualification 22",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 22,
+      "scoreRedFinal": 146,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 28,
+      "scoreBlueFinal": 94,
+      "scoreBlueFoul": 90,
+      "scoreBlueAuto": 0,
+      "postResultTime": "2023-12-09T15:43:47.637",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19480,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19296,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18228,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11323,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.167"
+    },
+    {
+      "actualStartTime": "2023-12-09T15:46:00.178",
+      "description": "Qualification 23",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 23,
+      "scoreRedFinal": 80,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 5,
+      "scoreBlueFinal": 65,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 30,
+      "postResultTime": "2023-12-09T15:49:28.148",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23335,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21511,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11322,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18359,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.246"
+    },
+    {
+      "actualStartTime": "2023-12-09T15:51:43.556",
+      "description": "Qualification 24",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 24,
+      "scoreRedFinal": 60,
+      "scoreRedFoul": 40,
+      "scoreRedAuto": 16,
+      "scoreBlueFinal": 117,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 30,
+      "postResultTime": "2023-12-09T15:55:07.741",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 24963,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18360,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18363,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23636,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.293"
+    },
+    {
+      "actualStartTime": "2023-12-09T15:57:45.039",
+      "description": "Qualification 25",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 25,
+      "scoreRedFinal": 374,
+      "scoreRedFoul": 40,
+      "scoreRedAuto": 45,
+      "scoreBlueFinal": 92,
+      "scoreBlueFoul": 300,
+      "scoreBlueAuto": 28,
+      "postResultTime": "2023-12-09T16:02:51.266",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23369,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19218,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15215,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.385"
+    },
+    {
+      "actualStartTime": "2023-12-09T16:07:06.536",
+      "description": "Qualification 26",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 26,
+      "scoreRedFinal": 116,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 45,
+      "scoreBlueFinal": 141,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 50,
+      "postResultTime": "2023-12-09T16:11:00.087",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11145,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21035,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23331,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11143,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.158"
+    },
+    {
+      "actualStartTime": "2023-12-09T16:12:30.076",
+      "description": "Qualification 27",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 27,
+      "scoreRedFinal": 220,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 80,
+      "scoreBlueFinal": 78,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 16,
+      "postResultTime": "2023-12-09T16:16:09.768",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 14380,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15145,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19341,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18306,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.233"
+    },
+    {
+      "actualStartTime": "2023-12-09T16:18:35.687",
+      "description": "Qualification 28",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 28,
+      "scoreRedFinal": 143,
+      "scoreRedFoul": 20,
+      "scoreRedAuto": 55,
+      "scoreBlueFinal": 152,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 28,
+      "postResultTime": "2023-12-09T16:22:22.483",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18439,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12554,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11146,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.281"
+    },
+    {
+      "actualStartTime": "2023-12-09T16:25:28.492",
+      "description": "Qualification 29",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 29,
+      "scoreRedFinal": 94,
+      "scoreRedFoul": 110,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 164,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 30,
+      "postResultTime": "2023-12-09T16:32:42.264",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 14579,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19377,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11505,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22116,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.367"
+    },
+    {
+      "actualStartTime": "2023-12-09T16:34:35.469",
+      "description": "Qualification 30",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 30,
+      "scoreRedFinal": 121,
+      "scoreRedFoul": 40,
+      "scoreRedAuto": 10,
+      "scoreBlueFinal": 104,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 23,
+      "postResultTime": "2023-12-09T16:39:09.289",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 22407,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 13710,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18611,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17556,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.149"
+    },
+    {
+      "actualStartTime": "2023-12-10T08:33:14.918",
+      "description": "Qualification 31",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 31,
+      "scoreRedFinal": 158,
+      "scoreRedFoul": 20,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 45,
+      "scoreBlueFoul": 60,
+      "scoreBlueAuto": 8,
+      "postResultTime": "2023-12-10T08:39:03.342",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 15144,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11148,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 16188,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23875,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.227"
+    },
+    {
+      "actualStartTime": "2023-12-10T08:40:52.719",
+      "description": "Qualification 32",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 32,
+      "scoreRedFinal": 138,
+      "scoreRedFoul": 40,
+      "scoreRedAuto": 5,
+      "scoreBlueFinal": 138,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 28,
+      "postResultTime": "2023-12-10T08:45:24.782",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18362,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17101,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23636,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19450,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.275"
+    },
+    {
+      "actualStartTime": "2023-12-10T08:47:20.175",
+      "description": "Qualification 33",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 33,
+      "scoreRedFinal": 75,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 25,
+      "scoreBlueFinal": 66,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 30,
+      "postResultTime": "2023-12-10T08:50:41.129",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19218,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11145,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19296,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18360,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.313"
+    },
+    {
+      "actualStartTime": "2023-12-10T08:53:56.058",
+      "description": "Qualification 34",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 34,
+      "scoreRedFinal": 152,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 30,
+      "scoreBlueFoul": 20,
+      "scoreBlueAuto": 8,
+      "postResultTime": "2023-12-10T08:57:28.617",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 24963,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11323,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19341,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21511,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.356"
+    },
+    {
+      "actualStartTime": "2023-12-10T08:59:08.718",
+      "description": "Qualification 35",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 35,
+      "scoreRedFinal": 159,
+      "scoreRedFoul": 20,
+      "scoreRedAuto": 45,
+      "scoreBlueFinal": 124,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2023-12-10T09:03:10.37",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 12993,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21035,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15145,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11322,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.414"
+    },
+    {
+      "actualStartTime": "2023-12-10T09:06:15.357",
+      "description": "Qualification 36",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 36,
+      "scoreRedFinal": 231,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 70,
+      "scoreBlueFinal": 62,
+      "scoreBlueFoul": 60,
+      "scoreBlueAuto": 10,
+      "postResultTime": "2023-12-10T09:10:59.134",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18228,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18306,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11505,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18363,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.449"
+    },
+    {
+      "actualStartTime": "2023-12-10T09:13:04.717",
+      "description": "Qualification 37",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 37,
+      "scoreRedFinal": 80,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 13,
+      "scoreBlueFinal": 13,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 5,
+      "postResultTime": "2023-12-10T09:16:36.345",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19480,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22116,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18359,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18439,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.173"
+    },
+    {
+      "actualStartTime": "2023-12-10T09:18:49.424",
+      "description": "Qualification 38",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 38,
+      "scoreRedFinal": 32,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 10,
+      "scoreBlueFinal": 90,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 50,
+      "postResultTime": "2023-12-10T09:22:32.027",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 16188,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15215,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14579,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 13710,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.216"
+    },
+    {
+      "actualStartTime": "2023-12-10T09:29:24.194",
+      "description": "Qualification 39",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 39,
+      "scoreRedFinal": 93,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 25,
+      "scoreBlueFinal": 11,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 0,
+      "postResultTime": "2023-12-10T09:33:05.692",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23875,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11143,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18611,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23335,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.251"
+    },
+    {
+      "actualStartTime": "2023-12-10T09:35:12.777",
+      "description": "Qualification 40",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 40,
+      "scoreRedFinal": 85,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 85,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 5,
+      "postResultTime": "2023-12-10T09:38:28.011",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 22407,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11146,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17101,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.27"
+    },
+    {
+      "actualStartTime": "2023-12-10T09:41:18.195",
+      "description": "Qualification 41",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 41,
+      "scoreRedFinal": 92,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 25,
+      "scoreBlueFinal": 89,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 30,
+      "postResultTime": "2023-12-10T09:47:03.988",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23369,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12554,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17556,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15144,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.299"
+    },
+    {
+      "actualStartTime": "2023-12-10T09:56:36.344",
+      "description": "Qualification 42",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 42,
+      "scoreRedFinal": 147,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 170,
+      "scoreBlueFoul": 60,
+      "scoreBlueAuto": 51,
+      "postResultTime": "2023-12-10T10:00:15.208",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19450,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19377,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11148,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23331,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.344"
+    },
+    {
+      "actualStartTime": "2023-12-10T10:02:25.231",
+      "description": "Qualification 43",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 43,
+      "scoreRedFinal": 126,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 11,
+      "scoreBlueFinal": 83,
+      "scoreBlueFoul": 60,
+      "scoreBlueAuto": 48,
+      "postResultTime": "2023-12-10T10:06:37.476",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19296,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11505,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19341,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11322,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.397"
+    },
+    {
+      "actualStartTime": "2023-12-10T10:09:16.82",
+      "description": "Qualification 44",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 44,
+      "scoreRedFinal": 145,
+      "scoreRedFoul": 50,
+      "scoreRedAuto": 30,
+      "scoreBlueFinal": 171,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 75,
+      "postResultTime": "2023-12-10T10:13:46.603",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11145,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22116,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18228,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.444"
+    },
+    {
+      "actualStartTime": "2023-12-10T10:15:55.481",
+      "description": "Qualification 45",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 45,
+      "scoreRedFinal": 25,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 11,
+      "scoreBlueFinal": 143,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 48,
+      "postResultTime": "2023-12-10T10:19:42.651",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18360,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11323,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18439,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14579,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.163"
+    },
+    {
+      "actualStartTime": "2023-12-10T10:23:31.175",
+      "description": "Qualification 46",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 46,
+      "scoreRedFinal": 66,
+      "scoreRedFoul": 20,
+      "scoreRedAuto": 35,
+      "scoreBlueFinal": 148,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 45,
+      "postResultTime": "2023-12-10T10:27:05.299",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18363,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 13710,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19480,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11143,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.204"
+    },
+    {
+      "actualStartTime": "2023-12-10T10:28:42.65",
+      "description": "Qualification 47",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 47,
+      "scoreRedFinal": 124,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 20,
+      "scoreBlueFinal": 98,
+      "scoreBlueFoul": 50,
+      "scoreBlueAuto": 30,
+      "postResultTime": "2023-12-10T10:32:14.183",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19218,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22407,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18306,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 16188,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.239"
+    },
+    {
+      "actualStartTime": "2023-12-10T10:35:20.108",
+      "description": "Qualification 48",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 48,
+      "scoreRedFinal": 59,
+      "scoreRedFoul": 40,
+      "scoreRedAuto": 5,
+      "scoreBlueFinal": 165,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 50,
+      "postResultTime": "2023-12-10T10:39:01.852",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18359,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23369,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 24963,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.263"
+    },
+    {
+      "actualStartTime": "2023-12-10T10:43:10.994",
+      "description": "Qualification 49",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 49,
+      "scoreRedFinal": 72,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 0,
+      "scoreBlueFinal": 175,
+      "scoreBlueFoul": 20,
+      "scoreBlueAuto": 58,
+      "postResultTime": "2023-12-10T10:46:22.815",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 17101,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11148,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23335,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17556,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.287"
+    },
+    {
+      "actualStartTime": "2023-12-10T10:48:10.625",
+      "description": "Qualification 50",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 50,
+      "scoreRedFinal": 58,
+      "scoreRedFoul": 20,
+      "scoreRedAuto": 8,
+      "scoreBlueFinal": 96,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 25,
+      "postResultTime": "2023-12-10T10:51:51.824",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 15145,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19377,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18611,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12554,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.331"
+    },
+    {
+      "actualStartTime": "2023-12-10T10:54:34.29",
+      "description": "Qualification 51",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 51,
+      "scoreRedFinal": 95,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 30,
+      "scoreBlueFinal": 62,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 5,
+      "postResultTime": "2023-12-10T10:57:52.731",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 15215,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23636,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23875,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21511,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.378"
+    },
+    {
+      "actualStartTime": "2023-12-10T11:01:21.086",
+      "description": "Qualification 52",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 52,
+      "scoreRedFinal": 87,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 28,
+      "scoreBlueFinal": 69,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 25,
+      "postResultTime": "2023-12-10T11:05:26.095",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 21035,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15144,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11146,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19450,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.433"
+    },
+    {
+      "actualStartTime": "2023-12-10T11:08:34.779",
+      "description": "Qualification 53",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 53,
+      "scoreRedFinal": 107,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 111,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 28,
+      "postResultTime": "2023-12-10T11:12:00.751",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23331,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11323,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18228,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.154"
+    },
+    {
+      "actualStartTime": "2023-12-10T13:03:36.17",
+      "description": "Semifinal 1 Match 1",
+      "tournamentLevel": "SEMIFINAL",
+      "series": 1,
+      "matchNumber": 1,
+      "scoreRedFinal": 242,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 63,
+      "scoreBlueFinal": 150,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 30,
+      "postResultTime": "2023-12-10T13:08:29.389",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23636,
+          "station": "Blue3",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17556,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11145,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11148,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18228,
+          "station": "Red3",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.481"
+    },
+    {
+      "actualStartTime": "2023-12-10T13:10:35.075",
+      "description": "Semifinal 2 Match 1",
+      "tournamentLevel": "SEMIFINAL",
+      "series": 2,
+      "matchNumber": 1,
+      "scoreRedFinal": 206,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 100,
+      "scoreBlueFinal": 181,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 55,
+      "postResultTime": "2023-12-10T13:14:37.632",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 15145,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12554,
+          "station": "Blue3",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11146,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 21511,
+          "station": "Red3",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 23331,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.473"
+    },
+    {
+      "actualStartTime": "2023-12-10T13:18:06.764",
+      "description": "Semifinal 1 Match 2",
+      "tournamentLevel": "SEMIFINAL",
+      "series": 1,
+      "matchNumber": 2,
+      "scoreRedFinal": 243,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 85,
+      "scoreBlueFinal": 35,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 10,
+      "postResultTime": "2023-12-10T13:21:45.407",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11148,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18228,
+          "station": "Red3",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11145,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17556,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23636,
+          "station": "Blue3",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.465"
+    },
+    {
+      "actualStartTime": "2023-12-10T13:25:07.15",
+      "description": "Semifinal 2 Match 2",
+      "tournamentLevel": "SEMIFINAL",
+      "series": 2,
+      "matchNumber": 2,
+      "scoreRedFinal": 138,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 75,
+      "scoreBlueFinal": 188,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 63,
+      "postResultTime": "2023-12-10T13:29:33.962",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 12554,
+          "station": "Blue3",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 11146,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23331,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21511,
+          "station": "Red3",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15145,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.457"
+    },
+    {
+      "actualStartTime": "2023-12-10T13:39:19.813",
+      "description": "Semifinal 2 Match 3",
+      "tournamentLevel": "SEMIFINAL",
+      "series": 2,
+      "matchNumber": 3,
+      "scoreRedFinal": 170,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 75,
+      "scoreBlueFinal": 153,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 38,
+      "postResultTime": "2023-12-10T13:42:59.461",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 14380,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15145,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21511,
+          "station": "Red3",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 23331,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11146,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12554,
+          "station": "Blue3",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.488"
+    },
+    {
+      "actualStartTime": "2023-12-10T13:54:40.312",
+      "description": "Finals Match 1",
+      "tournamentLevel": "FINAL",
+      "series": 0,
+      "matchNumber": 1,
+      "scoreRedFinal": 191,
+      "scoreRedFoul": 20,
+      "scoreRedAuto": 41,
+      "scoreBlueFinal": 178,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 35,
+      "postResultTime": "2023-12-10T13:59:17.143",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18228,
+          "station": "Red3",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21511,
+          "station": "Blue3",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 15145,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11148,
+          "station": "Red1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.503"
+    },
+    {
+      "actualStartTime": "2023-12-10T14:11:48.817",
+      "description": "Finals Match 2",
+      "tournamentLevel": "FINAL",
+      "series": 0,
+      "matchNumber": 2,
+      "scoreRedFinal": 230,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 76,
+      "scoreBlueFinal": 162,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 50,
+      "postResultTime": "2023-12-10T14:15:26.692",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 21511,
+          "station": "Blue3",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 15145,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 14380,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11148,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18228,
+          "station": "Red3",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2023-12-10T05:07:19.496"
+    }
+  ]
+}

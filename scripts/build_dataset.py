@@ -165,24 +165,27 @@ def process_ftc_events_data(ftc_dir, matches, teams_dict, dropped_counts):
         
         for file_path in season_path.glob("*.json"):
             try:
-                event_code = file_path.stem
-                event_key = f"{season}-TX-{event_code}" # standardized mock event key format
-                event_name = f"Event {event_code}"
-                region = "TX"
-                
                 with open(file_path, "r") as f:
                     data = json.load(f)
                     
+                # Read metadata with fallback to old mock behavior
+                event_code = data.get("event_code", file_path.stem)
+                event_name = data.get("event_name", f"Event {event_code}")
+                region = data.get("region", "TX")
+                
+                event_key = f"{season}-{region}-{event_code}"
+                
                 for m in data.get("matches", []):
                     match_number = m.get("matchNumber")
                     red_score = m.get("scoreRedFinal")
                     blue_score = m.get("scoreBlueFinal")
                     
+                    # Handle both new uppercase and old mixed case strings
                     level = m.get("tournamentLevel", "Qualification")
-                    is_playoff = level != "Qualification"
+                    is_playoff = level.upper() != "QUALIFICATION"
                     lvl_code = "Q" if not is_playoff else "E"
                     
-                    match_key = f"{season}-TX-{event_code}-{lvl_code}-{match_number:03d}"
+                    match_key = f"{season}-{region}-{event_code}-{lvl_code}-{match_number:03d}"
                     
                     # Extract teams
                     red_alliance = []

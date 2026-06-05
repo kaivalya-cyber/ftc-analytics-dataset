@@ -1,0 +1,2768 @@
+{
+  "event_code": "AUMPOS",
+  "event_name": "APOC Off-Season",
+  "region": "AU",
+  "type": "Off-Season",
+  "matches": [
+    {
+      "actualStartTime": "2024-07-12T13:01:46.225",
+      "description": "Qualification 1",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 1,
+      "scoreRedFinal": 233,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 60,
+      "scoreBlueFinal": 148,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 38,
+      "postResultTime": "2024-07-12T13:06:23.847",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 24697,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19745,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23335,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.897"
+    },
+    {
+      "actualStartTime": "2024-07-12T13:08:37.955",
+      "description": "Qualification 2",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 2,
+      "scoreRedFinal": 61,
+      "scoreRedFoul": 20,
+      "scoreRedAuto": 0,
+      "scoreBlueFinal": 168,
+      "scoreBlueFoul": 50,
+      "scoreBlueAuto": 83,
+      "postResultTime": "2024-07-12T13:12:50.71",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 21803,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22927,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25290,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22985,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.867"
+    },
+    {
+      "actualStartTime": "2024-07-12T13:15:32.525",
+      "description": "Qualification 3",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 3,
+      "scoreRedFinal": 129,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 71,
+      "scoreBlueFoul": 40,
+      "scoreBlueAuto": 15,
+      "postResultTime": "2024-07-12T13:19:25.3",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 21612,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23070,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23331,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23732,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.232"
+    },
+    {
+      "actualStartTime": "2024-07-12T13:20:55.761",
+      "description": "Qualification 4",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 4,
+      "scoreRedFinal": 285,
+      "scoreRedFoul": 20,
+      "scoreRedAuto": 98,
+      "scoreBlueFinal": 152,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 55,
+      "postResultTime": "2024-07-12T13:25:03.212",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 12993,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19013,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20914,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20890,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.218"
+    },
+    {
+      "actualStartTime": "2024-07-12T13:26:49.261",
+      "description": "Qualification 5",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 5,
+      "scoreRedFinal": 57,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 241,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 74,
+      "postResultTime": "2024-07-12T13:31:47.207",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19343,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23332,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11511,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17556,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.196"
+    },
+    {
+      "actualStartTime": "2024-07-12T13:36:28.121",
+      "description": "Qualification 6",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 6,
+      "scoreRedFinal": 214,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 45,
+      "scoreBlueFinal": 59,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 36,
+      "postResultTime": "2024-07-12T13:40:46.877",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23400,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25100,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23369,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21612,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.174"
+    },
+    {
+      "actualStartTime": "2024-07-12T13:46:32.62",
+      "description": "Qualification 7",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 7,
+      "scoreRedFinal": 94,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 236,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 75,
+      "postResultTime": "2024-07-12T13:54:01.067",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 20914,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25290,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 24697,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23732,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.153"
+    },
+    {
+      "actualStartTime": "2024-07-12T13:58:09.278",
+      "description": "Qualification 8",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 8,
+      "scoreRedFinal": 78,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 0,
+      "scoreBlueFinal": 121,
+      "scoreBlueFoul": 40,
+      "scoreBlueAuto": 55,
+      "postResultTime": "2024-07-12T14:02:15.51",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23332,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23070,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23331,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23335,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.138"
+    },
+    {
+      "actualStartTime": "2024-07-12T14:09:36.728",
+      "description": "Qualification 9",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 9,
+      "scoreRedFinal": 264,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 85,
+      "scoreBlueFinal": 87,
+      "scoreBlueFoul": 70,
+      "scoreBlueAuto": 25,
+      "postResultTime": "2024-07-12T14:13:16.777",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11511,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22927,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23400,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.926"
+    },
+    {
+      "actualStartTime": "2024-07-12T14:15:42.714",
+      "description": "Qualification 10",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 10,
+      "scoreRedFinal": 180,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 30,
+      "scoreBlueFinal": 202,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 70,
+      "postResultTime": "2024-07-12T14:19:38.974",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19013,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23369,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22985,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19745,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.12"
+    },
+    {
+      "actualStartTime": "2024-07-12T14:20:37.896",
+      "description": "Qualification 11",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 11,
+      "scoreRedFinal": 221,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 85,
+      "scoreBlueFinal": 245,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 78,
+      "postResultTime": "2024-07-12T14:25:00.101",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 17556,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25100,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21803,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.917"
+    },
+    {
+      "actualStartTime": "2024-07-12T14:39:20.998",
+      "description": "Qualification 12",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 12,
+      "scoreRedFinal": 210,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 78,
+      "scoreBlueFinal": 40,
+      "scoreBlueFoul": 40,
+      "scoreBlueAuto": 10,
+      "postResultTime": "2024-07-12T14:43:33.907",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 20890,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23732,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21612,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19343,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.096"
+    },
+    {
+      "actualStartTime": "2024-07-12T14:52:34.596",
+      "description": "Qualification 13",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 13,
+      "scoreRedFinal": 243,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 75,
+      "scoreBlueFinal": 83,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 25,
+      "postResultTime": "2024-07-12T14:59:07.938",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18362,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20914,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23331,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22985,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.909"
+    },
+    {
+      "actualStartTime": "2024-07-12T15:00:50.092",
+      "description": "Qualification 14",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 14,
+      "scoreRedFinal": 127,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 3,
+      "scoreBlueFinal": 230,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 58,
+      "postResultTime": "2024-07-12T15:05:37.998",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23335,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19013,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23400,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17556,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.074"
+    },
+    {
+      "actualStartTime": "2024-07-12T15:08:05.976",
+      "description": "Qualification 15",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 15,
+      "scoreRedFinal": 165,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 202,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 60,
+      "postResultTime": "2024-07-12T15:14:08.334",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23070,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20890,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25100,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21803,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.901"
+    },
+    {
+      "actualStartTime": "2024-07-12T15:23:43.738",
+      "description": "Qualification 16",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 16,
+      "scoreRedFinal": 92,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 191,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 85,
+      "postResultTime": "2024-07-12T15:27:55.702",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19343,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22927,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23369,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 24697,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.056"
+    },
+    {
+      "actualStartTime": "2024-07-12T15:28:57.651",
+      "description": "Qualification 17",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 17,
+      "scoreRedFinal": 334,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 96,
+      "scoreBlueFinal": 130,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 65,
+      "postResultTime": "2024-07-12T15:33:22.334",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11511,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25290,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19745,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.209"
+    },
+    {
+      "actualStartTime": "2024-07-12T15:36:14.969",
+      "description": "Qualification 18",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 18,
+      "scoreRedFinal": 135,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 170,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 27,
+      "postResultTime": "2024-07-12T15:41:23.578",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18362,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25100,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23732,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23332,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.893"
+    },
+    {
+      "actualStartTime": "2024-07-12T15:45:03.199",
+      "description": "Qualification 19",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 19,
+      "scoreRedFinal": 175,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 75,
+      "scoreBlueFinal": 187,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 75,
+      "postResultTime": "2024-07-12T15:49:21.714",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 22985,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17556,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 24697,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20890,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.954"
+    },
+    {
+      "actualStartTime": "2024-07-12T15:55:27.569",
+      "description": "Qualification 20",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 20,
+      "scoreRedFinal": 274,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 58,
+      "scoreBlueFinal": 62,
+      "scoreBlueFoul": 20,
+      "scoreBlueAuto": 13,
+      "postResultTime": "2024-07-12T16:00:07.992",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23331,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19013,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25290,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19343,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.996"
+    },
+    {
+      "actualStartTime": "2024-07-12T16:02:31.887",
+      "description": "Qualification 21",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 21,
+      "scoreRedFinal": 182,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 36,
+      "scoreBlueFinal": 75,
+      "scoreBlueFoul": 40,
+      "scoreBlueAuto": 51,
+      "postResultTime": "2024-07-12T16:06:44.199",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 20914,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23335,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22927,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21803,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.189"
+    },
+    {
+      "actualStartTime": "2024-07-12T16:10:47.05",
+      "description": "Qualification 22",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 22,
+      "scoreRedFinal": 147,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 30,
+      "scoreBlueFinal": 143,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 55,
+      "postResultTime": "2024-07-12T16:18:04.473",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 12993,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23369,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11511,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21612,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.886"
+    },
+    {
+      "actualStartTime": "2024-07-12T16:25:32.816",
+      "description": "Qualification 23",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 23,
+      "scoreRedFinal": 163,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 10,
+      "scoreBlueFinal": 160,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 58,
+      "postResultTime": "2024-07-12T16:29:30.926",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23400,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23332,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19745,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23070,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.947"
+    },
+    {
+      "actualStartTime": "2024-07-12T16:32:02.857",
+      "description": "Qualification 24",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 24,
+      "scoreRedFinal": 306,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 91,
+      "scoreBlueFinal": 155,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 50,
+      "postResultTime": "2024-07-12T16:36:46.046",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 22985,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25100,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23335,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17556,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.987"
+    },
+    {
+      "actualStartTime": "2024-07-12T16:43:31.856",
+      "description": "Qualification 25",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 25,
+      "scoreRedFinal": 196,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 45,
+      "scoreBlueFinal": 109,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 55,
+      "postResultTime": "2024-07-12T16:47:47.852",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23732,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11511,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22927,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23331,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.167"
+    },
+    {
+      "actualStartTime": "2024-07-13T08:40:00.447",
+      "description": "Qualification 26",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 26,
+      "scoreRedFinal": 215,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 83,
+      "scoreBlueFinal": 236,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 50,
+      "postResultTime": "2024-07-13T08:45:14.853",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19343,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 24697,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23400,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.878"
+    },
+    {
+      "actualStartTime": "2024-07-13T08:45:57.252",
+      "description": "Qualification 27",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 27,
+      "scoreRedFinal": 174,
+      "scoreRedFoul": 70,
+      "scoreRedAuto": 70,
+      "scoreBlueFinal": 116,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 5,
+      "postResultTime": "2024-07-13T08:50:57.57",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23369,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25290,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23070,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20914,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.939"
+    },
+    {
+      "actualStartTime": "2024-07-13T08:52:43.249",
+      "description": "Qualification 28",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 28,
+      "scoreRedFinal": 79,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 0,
+      "scoreBlueFinal": 173,
+      "scoreBlueFoul": 20,
+      "scoreBlueAuto": 18,
+      "postResultTime": "2024-07-13T08:57:34.595",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 21803,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19013,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21612,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.979"
+    },
+    {
+      "actualStartTime": "2024-07-13T09:00:51.413",
+      "description": "Qualification 29",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 29,
+      "scoreRedFinal": 150,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 35,
+      "scoreBlueFinal": 34,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 8,
+      "postResultTime": "2024-07-13T09:04:45.056",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 22927,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23332,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19745,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20890,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.145"
+    },
+    {
+      "actualStartTime": "2024-07-13T09:06:00.487",
+      "description": "Qualification 30",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 30,
+      "scoreRedFinal": 229,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 65,
+      "scoreBlueFinal": 83,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 25,
+      "postResultTime": "2024-07-13T09:10:03.931",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 11511,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19343,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23070,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22985,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.871"
+    },
+    {
+      "actualStartTime": "2024-07-13T09:13:03.228",
+      "description": "Qualification 31",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 31,
+      "scoreRedFinal": 315,
+      "scoreRedFoul": 60,
+      "scoreRedAuto": 110,
+      "scoreBlueFinal": 191,
+      "scoreBlueFoul": 50,
+      "scoreBlueAuto": 20,
+      "postResultTime": "2024-07-13T09:17:26.823",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 25100,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21612,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19013,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25290,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.93"
+    },
+    {
+      "actualStartTime": "2024-07-13T09:20:39.753",
+      "description": "Qualification 32",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 32,
+      "scoreRedFinal": 90,
+      "scoreRedFoul": 70,
+      "scoreRedAuto": 28,
+      "scoreBlueFinal": 218,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 38,
+      "postResultTime": "2024-07-13T09:25:17.526",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23331,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23332,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23369,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 24697,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.97"
+    },
+    {
+      "actualStartTime": "2024-07-13T09:27:37.415",
+      "description": "Qualification 33",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 33,
+      "scoreRedFinal": 71,
+      "scoreRedFoul": 50,
+      "scoreRedAuto": 30,
+      "scoreBlueFinal": 336,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 80,
+      "postResultTime": "2024-07-13T09:33:00.146",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 18362,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21803,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23400,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.007"
+    },
+    {
+      "actualStartTime": "2024-07-13T09:33:30.809",
+      "description": "Qualification 34",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 34,
+      "scoreRedFinal": 240,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 70,
+      "scoreBlueFinal": 213,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 100,
+      "postResultTime": "2024-07-13T09:38:17.188",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19745,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17556,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23732,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20914,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.129"
+    },
+    {
+      "actualStartTime": "2024-07-13T09:40:44.853",
+      "description": "Qualification 35",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 35,
+      "scoreRedFinal": 210,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 81,
+      "scoreBlueFinal": 79,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 11,
+      "postResultTime": "2024-07-13T09:46:47.167",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 20890,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23369,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23335,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11511,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.202"
+    },
+    {
+      "actualStartTime": "2024-07-13T09:55:27.5",
+      "description": "Qualification 36",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 36,
+      "scoreRedFinal": 356,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 105,
+      "scoreBlueFinal": 51,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 30,
+      "postResultTime": "2024-07-13T09:59:42.181",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 25100,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 24697,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19343,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22927,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.247"
+    },
+    {
+      "actualStartTime": "2024-07-13T10:02:23.333",
+      "description": "Qualification 37",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 37,
+      "scoreRedFinal": 120,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 83,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 30,
+      "postResultTime": "2024-07-13T10:06:15.82",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23732,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19013,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21803,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23332,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.89"
+    },
+    {
+      "actualStartTime": "2024-07-13T10:12:53.094",
+      "description": "Qualification 38",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 38,
+      "scoreRedFinal": 45,
+      "scoreRedFoul": 120,
+      "scoreRedAuto": 5,
+      "scoreBlueFinal": 310,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 51,
+      "postResultTime": "2024-07-13T10:20:06.75",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23331,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22985,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23335,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.921"
+    },
+    {
+      "actualStartTime": "2024-07-13T10:21:09.44",
+      "description": "Qualification 39",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 39,
+      "scoreRedFinal": 113,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 8,
+      "scoreBlueFinal": 211,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 83,
+      "postResultTime": "2024-07-13T10:25:08.292",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 20890,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25290,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19745,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.95"
+    },
+    {
+      "actualStartTime": "2024-07-13T10:36:32.426",
+      "description": "Qualification 40",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 40,
+      "scoreRedFinal": 138,
+      "scoreRedFoul": 100,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 297,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 38,
+      "postResultTime": "2024-07-13T10:41:04.221",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 21612,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23070,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17556,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20914,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.966"
+    },
+    {
+      "actualStartTime": "2024-07-13T10:43:43.351",
+      "description": "Qualification 41",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 41,
+      "scoreRedFinal": 160,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 70,
+      "scoreBlueFinal": 111,
+      "scoreBlueFoul": 50,
+      "scoreBlueAuto": 50,
+      "postResultTime": "2024-07-13T10:48:10.124",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23369,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23400,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23732,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21803,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.991"
+    },
+    {
+      "actualStartTime": "2024-07-13T11:10:27.945",
+      "description": "Qualification 42",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 42,
+      "scoreRedFinal": 308,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 90,
+      "scoreBlueFinal": 144,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 10,
+      "postResultTime": "2024-07-13T11:15:01.475",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 12993,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25100,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23332,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22985,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.106"
+    },
+    {
+      "actualStartTime": "2024-07-13T11:16:20.938",
+      "description": "Qualification 43",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 43,
+      "scoreRedFinal": 109,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 30,
+      "scoreBlueFinal": 118,
+      "scoreBlueFoul": 20,
+      "scoreBlueAuto": 50,
+      "postResultTime": "2024-07-13T11:22:11.742",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 19343,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20914,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23335,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.184"
+    },
+    {
+      "actualStartTime": "2024-07-13T11:23:03.532",
+      "description": "Qualification 44",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 44,
+      "scoreRedFinal": 214,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 133,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 8,
+      "postResultTime": "2024-07-13T11:28:42.791",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 22927,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19745,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21612,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23331,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.241"
+    },
+    {
+      "actualStartTime": "2024-07-13T11:30:25.918",
+      "description": "Qualification 45",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 45,
+      "scoreRedFinal": 141,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 10,
+      "scoreBlueFinal": 134,
+      "scoreBlueFoul": 20,
+      "scoreBlueAuto": 60,
+      "postResultTime": "2024-07-13T11:35:04.646",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 17556,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25290,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20890,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23400,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.882"
+    },
+    {
+      "actualStartTime": "2024-07-13T11:44:08.962",
+      "description": "Qualification 46",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 46,
+      "scoreRedFinal": 329,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 85,
+      "scoreBlueFinal": 238,
+      "scoreBlueFoul": 40,
+      "scoreBlueAuto": 60,
+      "postResultTime": "2024-07-13T11:49:38.412",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 24697,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19013,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23070,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11511,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.913"
+    },
+    {
+      "actualStartTime": "2024-07-13T11:54:22.427",
+      "description": "Qualification 47",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 47,
+      "scoreRedFinal": 240,
+      "scoreRedFoul": 10,
+      "scoreRedAuto": 78,
+      "scoreBlueFinal": 139,
+      "scoreBlueFoul": 60,
+      "scoreBlueAuto": 10,
+      "postResultTime": "2024-07-13T11:59:39.498",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 20914,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19745,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25100,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19343,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.942"
+    },
+    {
+      "actualStartTime": "2024-07-13T12:00:16.405",
+      "description": "Qualification 48",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 48,
+      "scoreRedFinal": 101,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 55,
+      "scoreBlueFinal": 35,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 19,
+      "postResultTime": "2024-07-13T12:04:08.54",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 25290,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21612,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23332,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23335,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.962"
+    },
+    {
+      "actualStartTime": "2024-07-13T13:07:46.594",
+      "description": "Qualification 49",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 49,
+      "scoreRedFinal": 350,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 115,
+      "scoreBlueFinal": 116,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 10,
+      "postResultTime": "2024-07-13T13:11:58.429",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 12993,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22985,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23070,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23732,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.983"
+    },
+    {
+      "actualStartTime": "2024-07-13T13:14:41.54",
+      "description": "Qualification 50",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 50,
+      "scoreRedFinal": 112,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 30,
+      "scoreBlueFinal": 228,
+      "scoreBlueFoul": 20,
+      "scoreBlueAuto": 63,
+      "postResultTime": "2024-07-13T13:18:44.907",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23369,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23331,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19013,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23400,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.083"
+    },
+    {
+      "actualStartTime": "2024-07-13T13:23:00.781",
+      "description": "Qualification 51",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 51,
+      "scoreRedFinal": 150,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 10,
+      "scoreBlueFinal": 283,
+      "scoreBlueFoul": 20,
+      "scoreBlueAuto": 85,
+      "postResultTime": "2024-07-13T13:27:00.425",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 20890,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21803,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 24697,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11511,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.16"
+    },
+    {
+      "actualStartTime": "2024-07-13T13:28:36.557",
+      "description": "Qualification 52",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 52,
+      "scoreRedFinal": 100,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 41,
+      "scoreBlueFinal": 264,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 90,
+      "postResultTime": "2024-07-13T13:35:23.133",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 22927,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17556,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.225"
+    },
+    {
+      "actualStartTime": "2024-07-13T13:39:32.516",
+      "description": "Qualification 53",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 53,
+      "scoreRedFinal": 97,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 30,
+      "scoreBlueFinal": 231,
+      "scoreBlueFoul": 30,
+      "scoreBlueAuto": 68,
+      "postResultTime": "2024-07-13T13:44:00.208",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23400,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23332,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22985,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20914,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.874"
+    },
+    {
+      "actualStartTime": "2024-07-13T13:44:33.642",
+      "description": "Qualification 54",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 54,
+      "scoreRedFinal": 211,
+      "scoreRedFoul": 20,
+      "scoreRedAuto": 60,
+      "scoreBlueFinal": 225,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 110,
+      "postResultTime": "2024-07-13T13:49:43.306",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23335,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 24697,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19013,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23732,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.905"
+    },
+    {
+      "actualStartTime": "2024-07-13T13:52:04.344",
+      "description": "Qualification 55",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 55,
+      "scoreRedFinal": 72,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 25,
+      "scoreBlueFinal": 178,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 63,
+      "postResultTime": "2024-07-13T13:57:37.722",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 25290,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17556,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20890,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23331,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.935"
+    },
+    {
+      "actualStartTime": "2024-07-13T14:03:21.285",
+      "description": "Qualification 56",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 56,
+      "scoreRedFinal": 103,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 50,
+      "scoreBlueFinal": 98,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 30,
+      "postResultTime": "2024-07-13T14:07:24.75",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 22927,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 18362,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23070,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23369,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.958"
+    },
+    {
+      "actualStartTime": "2024-07-13T14:14:19.368",
+      "description": "Qualification 57",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 57,
+      "scoreRedFinal": 131,
+      "scoreRedFoul": 30,
+      "scoreRedAuto": 0,
+      "scoreBlueFinal": 132,
+      "scoreBlueFoul": 40,
+      "scoreBlueAuto": 50,
+      "postResultTime": "2024-07-13T14:19:14.213",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 21612,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 21803,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19745,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19343,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:44.974"
+    },
+    {
+      "actualStartTime": "2024-07-13T14:19:59.248",
+      "description": "Qualification 58",
+      "tournamentLevel": "QUALIFICATION",
+      "series": 0,
+      "matchNumber": 58,
+      "scoreRedFinal": 253,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 120,
+      "scoreBlueFinal": 187,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 73,
+      "postResultTime": "2024-07-13T14:23:42.884",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 20914,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25100,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11511,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23331,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.064"
+    },
+    {
+      "actualStartTime": "2024-07-13T15:07:41.456",
+      "description": "Semifinal 1 Match 1",
+      "tournamentLevel": "SEMIFINAL",
+      "series": 1,
+      "matchNumber": 1,
+      "scoreRedFinal": 332,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 105,
+      "scoreBlueFinal": 223,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 78,
+      "postResultTime": "2024-07-13T15:12:13.547",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 12993,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11511,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22985,
+          "station": "Red3",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 17556,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20914,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23400,
+          "station": "Blue3",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.282"
+    },
+    {
+      "actualStartTime": "2024-07-13T15:13:41.876",
+      "description": "Semifinal 2 Match 1",
+      "tournamentLevel": "SEMIFINAL",
+      "series": 2,
+      "matchNumber": 1,
+      "scoreRedFinal": 273,
+      "scoreRedFoul": 50,
+      "scoreRedAuto": 96,
+      "scoreBlueFinal": 270,
+      "scoreBlueFoul": 40,
+      "scoreBlueAuto": 63,
+      "postResultTime": "2024-07-13T15:17:59.053",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 24697,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19013,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20890,
+          "station": "Red3",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 25100,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 23732,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 19745,
+          "station": "Blue3",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.274"
+    },
+    {
+      "actualStartTime": "2024-07-13T15:23:51.897",
+      "description": "Semifinal 1 Match 2",
+      "tournamentLevel": "SEMIFINAL",
+      "series": 1,
+      "matchNumber": 2,
+      "scoreRedFinal": 264,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 108,
+      "scoreBlueFinal": 198,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 80,
+      "postResultTime": "2024-07-13T15:28:10.144",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 23400,
+          "station": "Blue3",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20914,
+          "station": "Blue2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 22985,
+          "station": "Red3",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 17556,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11511,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 12993,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.264"
+    },
+    {
+      "actualStartTime": "2024-07-13T15:35:56.601",
+      "description": "Semifinal 2 Match 2",
+      "tournamentLevel": "SEMIFINAL",
+      "series": 2,
+      "matchNumber": 2,
+      "scoreRedFinal": 210,
+      "scoreRedFoul": 40,
+      "scoreRedAuto": 55,
+      "scoreBlueFinal": 197,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 50,
+      "postResultTime": "2024-07-13T15:41:32.746",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 20890,
+          "station": "Red3",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19745,
+          "station": "Blue3",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 23732,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 25100,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19013,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 24697,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.255"
+    },
+    {
+      "actualStartTime": "2024-07-13T15:53:21.518",
+      "description": "Finals Match 1",
+      "tournamentLevel": "FINAL",
+      "series": 0,
+      "matchNumber": 1,
+      "scoreRedFinal": 321,
+      "scoreRedFoul": 0,
+      "scoreRedAuto": 128,
+      "scoreBlueFinal": 287,
+      "scoreBlueFoul": 0,
+      "scoreBlueAuto": 83,
+      "postResultTime": "2024-07-13T15:57:57.595",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 12993,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11511,
+          "station": "Red2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 22985,
+          "station": "Red3",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 24697,
+          "station": "Blue1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 19013,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20890,
+          "station": "Blue3",
+          "dq": false,
+          "onField": false
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.299"
+    },
+    {
+      "actualStartTime": "2024-07-13T16:09:50.868",
+      "description": "Finals Match 2",
+      "tournamentLevel": "FINAL",
+      "series": 0,
+      "matchNumber": 2,
+      "scoreRedFinal": 338,
+      "scoreRedFoul": 40,
+      "scoreRedAuto": 96,
+      "scoreBlueFinal": 316,
+      "scoreBlueFoul": 10,
+      "scoreBlueAuto": 105,
+      "postResultTime": "2024-07-13T16:14:51.608",
+      "videoURL": null,
+      "teams": [
+        {
+          "teamNumber": 12993,
+          "station": "Red1",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 11511,
+          "station": "Red2",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 22985,
+          "station": "Red3",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 24697,
+          "station": "Blue1",
+          "dq": false,
+          "onField": false
+        },
+        {
+          "teamNumber": 19013,
+          "station": "Blue2",
+          "dq": false,
+          "onField": true
+        },
+        {
+          "teamNumber": 20890,
+          "station": "Blue3",
+          "dq": false,
+          "onField": true
+        }
+      ],
+      "modifiedOn": "2024-07-14T01:14:45.291"
+    }
+  ]
+}
