@@ -21,6 +21,8 @@ A clean, structured, public dataset of FIRST Tech Challenge (FTC) match results 
 
 ### Matches Per Season
 
+![Matches per Season bar chart](images/matches_per_season.png)
+
 | Season | Matches | Mean Score | Median Score | Std Dev |
 |:---|---:|---:|---:|---:|
 | 1819 (Rover Ruckus) | 129 | 201.13 | 205.00 | 45.03 |
@@ -119,6 +121,8 @@ A clean, structured, public dataset of FIRST Tech Challenge (FTC) match results 
 
 ## 🚀 Interactive Dashboard
 
+![Team Landscape scatter plot: OPR vs ELO colored by season](images/team_landscape.png)
+
 Launch the premium Streamlit dashboard to explore the dataset interactively:
 
 ```bash
@@ -146,10 +150,24 @@ The dashboard includes:
 - **🎯 Match Predictor** — 2v2 alliance prediction using OPR + ELO blended probability
 - **🏆 Season Simulator** — Bracket tournament simulator — pick 8 teams, run Monte Carlo simulations
 - **🥇 Player of the Season** — Composite power rankings (OPR + ELO + Win Rate) with season-end ELO accuracy
+- **📊 Team Comparison** — Compare 2-4 teams side-by-side with radar charts, stat cards, and metric bar charts
+- **🗺️ Team Landscape** — Interactive scatter plot of every team by OPR vs ELO, sized by win rate, colored by season
 
 The dashboard features a **dark/light mode toggle** (🌙/☀️) in the sidebar, persisted across pages via session state.
 
 The dashboard is a **multi-page Streamlit app** — pages live in `pages/` with shared utilities in `shared.py`.
+
+### Score Distribution
+
+![Score Distribution violin plots by season](images/score_distribution.png)
+
+### ELO Progression
+
+![ELO Rating Progression for Top 4 Teams](images/elo_progression.png)
+
+### OPR Distribution
+
+![OPR Distribution histogram](images/opr_distribution.png)
 
 ### Upset Statistics
 
@@ -260,6 +278,7 @@ ftc-analytics-dataset/
 │   └── alliance_strength_benchmark.csv
 ├── dashboard.py           # Streamlit entry point (Home page)
 ├── shared.py              # Shared utilities (cached data, CSS, lookups)
+├── images/                # Dashboard screenshots for README
 ├── pages/                 # Multi-page Streamlit app pages
 │   ├── 02_🔍_Team_Explorer.py
 │   ├── 03_📅_Event_Browser.py
@@ -269,7 +288,9 @@ ftc-analytics-dataset/
 │   ├── 07_⚡_Upset_Analysis.py
 │   ├── 08_🎯_Match_Predictor.py
 │   ├── 09_🏆_Season_Simulator.py
-│   └── 10_🥇_Player_of_the_Season.py
+│   ├── 10_🥇_Player_of_the_Season.py
+│   ├── 11_📊_Team_Comparison.py
+│   └── 12_🗺️_Team_Landscape.py
 ├── kaggle-metadata.json   # Kaggle dataset publishing metadata
 ├── exploration.ipynb
 ├── dataset_description.md

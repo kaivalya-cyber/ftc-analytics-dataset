@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import json
+import base64
 from io import BytesIO
 from fpdf import FPDF
 from shared import inject_css, load_data, build_lookups, stat_card_html, hero_header, render_sidebar
@@ -106,12 +108,31 @@ if team_number:
             return pdf.output(dest="S")
 
         pdf_bytes = generate_pdf()
-        st.download_button(
-            label="📄 Download Team Report (PDF)",
-            data=pdf_bytes,
-            file_name=f"team_{team_number}_report.pdf",
-            mime="application/pdf",
-            key="pdf_report",
-        )
+        c1, c2 = st.columns(2)
+        with c1:
+            st.download_button(
+                label="📄 Download Team Report (PDF)",
+                data=pdf_bytes,
+                file_name=f"team_{team_number}_report.pdf",
+                mime="application/pdf",
+                key="pdf_report",
+            )
+        with c2:
+            with st.expander("🔗 Share Report"):
+                report_data = {
+                    "team_number": int(team_number),
+                    "team_name": str(team_info["team_name"]) if pd.notna(team_info["team_name"]) else "",
+                    "country": str(team_info["country"]) if pd.notna(team_info["country"]) else "",
+                    "rookie_year": int(team_info["rookie_year"]) if pd.notna(team_info["rookie_year"]) else 0,
+                    "matches_played": int(total_matches_played),
+                    "best_opr": float(round(best_opr, 1)),
+                    "avg_opr": float(round(avg_opr, 1)),
+                    "current_elo": float(round(current_elo_val, 0)),
+                    "peak_elo": float(round(peak_elo, 0)),
+                    "seasons": {str(k): {"matches": int(v["Matches"]), "wins": int(v["Wins"]), "losses": int(v["Losses"]), "ties": int(v["Ties"]), "best_opr": float(v["Best_OPR"]), "avg_opr": float(v["Avg_OPR"])} for k, v in seasons_played.iterrows()},
+                }
+                encoded = base64.urlsafe_b64encode(json.dumps(report_data).encode()).decode()
+                st.text_area("Shareable base64-encoded report data:", value=encoded, height=100, key="share_data")
+                st.caption("Copy this base64 string to share the team report. Decode with: `echo '...' | base64 -d | python3 -m json.tool`")
     else:
         st.info("No event data found for this team.")
