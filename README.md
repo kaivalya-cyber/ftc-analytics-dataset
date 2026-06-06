@@ -144,6 +144,9 @@ The dashboard includes:
 - **🤝 Head-to-Head** — Compare any two teams' full match history, score timeline, and win/loss record
 - **⚡ Upset Analysis** — Discover when underdogs win — upset rates by season, qual vs playoff, biggest upsets
 - **🎯 Match Predictor** — 2v2 alliance prediction using OPR + ELO blended probability
+- **🏆 Season Simulator** — Bracket tournament simulator — pick 8 teams, run Monte Carlo simulations
+
+The dashboard is a **multi-page Streamlit app** — pages live in `pages/` with shared utilities in `shared.py`.
 
 ### Upset Statistics
 
@@ -252,7 +255,18 @@ ftc-analytics-dataset/
 ├── results/
 │   ├── win_prediction_benchmark.csv
 │   └── alliance_strength_benchmark.csv
-├── dashboard.py           # Interactive Streamlit dashboard
+├── dashboard.py           # Streamlit entry point (Home page)
+├── shared.py              # Shared utilities (cached data, CSS, lookups)
+├── pages/                 # Multi-page Streamlit app pages
+│   ├── 01_🏠_Home.py
+│   ├── 02_🔍_Team_Explorer.py
+│   ├── 03_📅_Event_Browser.py
+│   ├── 04_🏆_OPR_Leaderboard.py
+│   ├── 05_📈_ELO_Ratings.py
+│   ├── 06_🤝_Head_to_Head.py
+│   ├── 07_⚡_Upset_Analysis.py
+│   ├── 08_🎯_Match_Predictor.py
+│   └── 09_🏆_Season_Simulator.py
 ├── kaggle-metadata.json   # Kaggle dataset publishing metadata
 ├── exploration.ipynb
 ├── dataset_description.md
@@ -286,6 +300,8 @@ Data sourced from [The Orange Alliance](https://theorangealliance.org) and [FIRS
 ```bash
 # Install Kaggle CLI and authenticate
 pip install kaggle
+kaggle auth login          # Opens browser for OAuth
+# Or: export KAGGLE_USERNAME=... KAGGLE_KEY=...
 kaggle datasets create -p . --dir-mode skip
 ```
 The `kaggle-metadata.json` is already configured. Update the `id` field with your Kaggle username.
