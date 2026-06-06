@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import plotly.graph_objects as go
 from shared import inject_css, load_data, build_lookups, stat_card_html, hero_header, render_sidebar
 
 st.set_page_config(page_title="Head-to-Head", page_icon="🤝", layout="wide")
@@ -51,5 +52,33 @@ if team_a and team_b and team_a != team_b:
         st.caption(f"Red = Team {team_a}, Blue = Team {team_b}")
         timeline=pd.DataFrame({"Match #":range(1,len(h2h_matches)+1),f"Team {team_a}":a_scores,f"Team {team_b}":b_scores}).set_index("Match #")
         st.line_chart(timeline,use_container_width=True)
+
+        # Score differential bar chart
+        st.markdown("### 📊 Score Differential")
+        diffs = np.array(a_scores) - np.array(b_scores)
+        colors = ["#E74C3C" if d > 0 else ("#3498DB" if d < 0 else "#888888") for d in diffs]
+        fig = go.Figure(data=[go.Bar(
+            x=list(range(1, len(diffs) + 1)),
+            y=diffs,
+            marker_color=colors,
+            text=[f"+{int(d)}" if d > 0 else (f"{int(d)}" if d < 0 else "TIE") for d in diffs],
+            textposition="outside",
+            textfont=dict(color="#f0f0f5"),
+            hovertemplate=f"Team {team_a} %{{text}} vs Team {team_b}<extra></extra>"
+        )])
+        fig.update_layout(
+            title=f"Team {team_a} Margin Over Team {team_b}",
+            xaxis_title="Match #",
+            yaxis_title=f"Score Differential (+{team_a} / −{team_b})",
+            template="plotly_dark",
+            height=400,
+            bargap=0.25,
+            plot_bgcolor="rgba(0,0,0,0)",
+            paper_bgcolor="rgba(0,0,0,0)",
+            font=dict(color="#f0f0f5"),
+            xaxis=dict(gridcolor="rgba(255,255,255,0.08)", dtick=1),
+            yaxis=dict(gridcolor="rgba(255,255,255,0.08)", zerolinecolor="rgba(255,255,255,0.2)"),
+        )
+        st.plotly_chart(fig, use_container_width=True)
 elif team_a==team_b:
     st.info("Please select two different teams to compare.")
