@@ -17,9 +17,15 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, roc_auc_score, brier_score_loss, log_loss
+
+try:
+    from xgboost import XGBClassifier
+    HAS_XGBOOST = True
+except ImportError:
+    HAS_XGBOOST = False
 
 def calculate_h2h_matrix(train_matches_df):
     """
@@ -180,6 +186,21 @@ def main():
     gb_pred = gb.predict(X_test)
     gb_prob = gb.predict_proba(X_test)[:, 1]
     
+    # 4. Random Forest
+    rf = RandomForestClassifier(n_estimators=100, random_state=42)
+    rf.fit(X_train, y_train)
+    rf_pred = rf.predict(X_test)
+    rf_prob = rf.predict_proba(X_test)[:, 1]
+    
+    # 5. XGBoost
+    xgb_pred, xgb_prob = None, None
+    acc_xgb, auc_xgb, brier_xgb, logloss_xgb = None, None, None, None
+    if HAS_XGBOOST:
+        xgb = XGBClassifier(n_estimators=100, random_state=42, verbosity=0)
+        xgb.fit(X_train, y_train)
+        xgb_pred = xgb.predict(X_test)
+        xgb_prob = xgb.predict_proba(X_test)[:, 1]
+    
     # Evaluation helper
     def evaluate_model(y_true, y_pred, y_prob):
         acc = accuracy_score(y_true, y_pred)
@@ -191,12 +212,22 @@ def main():
     acc_opr, auc_opr, brier_opr, logloss_opr = evaluate_model(y_test, opr_pred, opr_prob)
     acc_lr, auc_lr, brier_lr, logloss_lr = evaluate_model(y_test, lr_pred, lr_prob)
     acc_gb, auc_gb, brier_gb, logloss_gb = evaluate_model(y_test, gb_pred, gb_prob)
+    acc_rf, auc_rf, brier_rf, logloss_rf = evaluate_model(y_test, rf_pred, rf_prob)
+    
+    if HAS_XGBOOST and xgb_pred is not None:
+        acc_xgb, auc_xgb, brier_xgb, logloss_xgb = evaluate_model(y_test, xgb_pred, xgb_prob)
     
     results = [
         {"Model": "OPR Difference Baseline", "Accuracy": acc_opr, "AUC-ROC": auc_opr, "Brier Score": brier_opr, "Log Loss": logloss_opr},
         {"Model": "Logistic Regression", "Accuracy": acc_lr, "AUC-ROC": auc_lr, "Brier Score": brier_lr, "Log Loss": logloss_lr},
-        {"Model": "Gradient Boosted Trees", "Accuracy": acc_gb, "AUC-ROC": auc_gb, "Brier Score": brier_gb, "Log Loss": logloss_gb}
+        {"Model": "Gradient Boosted Trees", "Accuracy": acc_gb, "AUC-ROC": auc_gb, "Brier Score": brier_gb, "Log Loss": logloss_gb},
+        {"Model": "Random Forest", "Accuracy": acc_rf, "AUC-ROC": auc_rf, "Brier Score": brier_rf, "Log Loss": logloss_rf},
     ]
+    
+    if HAS_XGBOOST and xgb_pred is not None:
+        results.append(
+            {"Model": "XGBoost", "Accuracy": acc_xgb, "AUC-ROC": auc_xgb, "Brier Score": brier_xgb, "Log Loss": logloss_xgb}
+        )
     
     results_df = pd.DataFrame(results)
     

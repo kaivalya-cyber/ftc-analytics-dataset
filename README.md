@@ -77,11 +77,24 @@ A clean, structured, public dataset of FIRST Tech Challenge (FTC) match results 
 | `np_opr` | Float | Non-Penalty OPR |
 | `ccwm` | Float | Calculated Contribution to Winning Margin |
 
+### `team_elo.csv` — One row per team per match ELO update
+
+| Column | Type | Description |
+|:---|:---|:---|
+| `team_number` | Integer | Team number |
+| `season` | String | Season identifier |
+| `event_key` | String | Event identifier |
+| `match_number` | Integer | Match number in the event |
+| `elo_before` | Float | ELO rating before the match |
+| `elo_after` | Float | ELO rating after the match |
+| `elo_change` | Float | ELO change from this match |
+
 ### Key Metrics
 
 - **OPR (Offensive Power Rating):** Estimated points contributed by a team per match, solved via least squares regression on the alliance participation matrix.
 - **NP-OPR (Non-Penalty OPR):** OPR computed after removing penalty points from scores.
 - **CCWM (Calculated Contribution to Winning Margin):** Estimated margin contribution per team per match.
+- **ELO Rating:** Rolling ELO rating (K=32, starting 1500) computed chronologically across all matches. Alliance-level outcomes used for 2v2 matches.
 
 ## Baseline Benchmarks
 
@@ -92,6 +105,8 @@ A clean, structured, public dataset of FIRST Tech Challenge (FTC) match results 
 | OPR Difference Baseline | 0.8254 | 0.8979 | 0.1584 | 0.4905 |
 | Logistic Regression | 0.8869 | 0.9412 | 0.0938 | 0.3086 |
 | Gradient Boosted Trees | 0.7063 | 0.8159 | 0.1830 | 0.5456 |
+| Random Forest | 0.6508 | 0.7752 | 0.1965 | 0.5780 |
+| XGBoost | 0.6746 | 0.7734 | 0.2163 | 0.6713 |
 
 ### Alliance Strength Prediction
 
@@ -146,12 +161,16 @@ python scripts/build_dataset.py
 # 3. Compute OPR, CCWM, NP-OPR
 python scripts/compute_opr.py
 
-# 4. Run benchmarks
+# 4. Compute ELO ratings
+python scripts/compute_elo.py
+
+# 5. Run benchmarks
 python scripts/benchmark_win_prediction.py
 python scripts/benchmark_alliance_strength.py
 
-# Optional: Launch the exploration notebook
+# Optional: Launch the exploration notebook or dashboard
 jupyter notebook exploration.ipynb
+streamlit run dashboard.py
 ```
 
 ### Using Real API Data
@@ -182,6 +201,7 @@ ftc-analytics-dataset/
 │   ├── collect_ftc_events.py
 │   ├── build_dataset.py
 │   ├── compute_opr.py
+│   ├── compute_elo.py       # Rolling ELO rating computation
 │   ├── benchmark_win_prediction.py
 │   └── benchmark_alliance_strength.py
 ├── results/
