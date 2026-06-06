@@ -145,6 +145,9 @@ The dashboard includes:
 - **⚡ Upset Analysis** — Discover when underdogs win — upset rates by season, qual vs playoff, biggest upsets
 - **🎯 Match Predictor** — 2v2 alliance prediction using OPR + ELO blended probability
 - **🏆 Season Simulator** — Bracket tournament simulator — pick 8 teams, run Monte Carlo simulations
+- **🥇 Player of the Season** — Composite power rankings (OPR + ELO + Win Rate) with season-end ELO accuracy
+
+The dashboard features a **dark/light mode toggle** (🌙/☀️) in the sidebar, persisted across pages via session state.
 
 The dashboard is a **multi-page Streamlit app** — pages live in `pages/` with shared utilities in `shared.py`.
 
@@ -258,7 +261,6 @@ ftc-analytics-dataset/
 ├── dashboard.py           # Streamlit entry point (Home page)
 ├── shared.py              # Shared utilities (cached data, CSS, lookups)
 ├── pages/                 # Multi-page Streamlit app pages
-│   ├── 01_🏠_Home.py
 │   ├── 02_🔍_Team_Explorer.py
 │   ├── 03_📅_Event_Browser.py
 │   ├── 04_🏆_OPR_Leaderboard.py
@@ -266,7 +268,8 @@ ftc-analytics-dataset/
 │   ├── 06_🤝_Head_to_Head.py
 │   ├── 07_⚡_Upset_Analysis.py
 │   ├── 08_🎯_Match_Predictor.py
-│   └── 09_🏆_Season_Simulator.py
+│   ├── 09_🏆_Season_Simulator.py
+│   └── 10_🥇_Player_of_the_Season.py
 ├── kaggle-metadata.json   # Kaggle dataset publishing metadata
 ├── exploration.ipynb
 ├── dataset_description.md

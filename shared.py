@@ -12,32 +12,50 @@ from pathlib import Path
 DATA_DIR = Path(__file__).parent / "data" / "processed"
 
 # ---------------------------------------------------------------------------
-# Injected CSS (call once per app)
+# CSS (dark + light themes)
 # ---------------------------------------------------------------------------
-def inject_css():
-    st.markdown("""
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+DARK_CSS = """
     :root {
         --ftc-red: #E74C3C; --ftc-blue: #3498DB; --ftc-orange: #F39C12; --ftc-green: #27AE60;
-        --bg-dark: #0f0f13; --bg-card: #1a1a24; --text-primary: #f0f0f5; --text-secondary: #a0a0b5;
-        --border-subtle: rgba(255,255,255,0.06); --gradient-hero: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-        --gradient-red: linear-gradient(135deg, #E74C3C, #C0392B); --gradient-blue: linear-gradient(135deg, #3498DB, #2980B9);
-        --shadow-card: 0 4px 24px rgba(0,0,0,0.3); --radius-lg: 16px; --radius-md: 10px; --radius-sm: 8px;
+        --bg-main: #0f0f13; --bg-card: #1a1a24; --bg-sidebar: linear-gradient(180deg, #12121c 0%, #0d0d17 100%);
+        --text-primary: #f0f0f5; --text-secondary: #a0a0b5;
+        --border-subtle: rgba(255,255,255,0.06);
+        --gradient-hero: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+        --gradient-red: linear-gradient(135deg, #E74C3C, #C0392B);
+        --gradient-blue: linear-gradient(135deg, #3498DB, #2980B9);
+        --shadow-card: 0 4px 24px rgba(0,0,0,0.3);
+        --radius-lg: 16px; --radius-md: 10px; --radius-sm: 8px;
     }
+"""
+LIGHT_CSS = """
+    :root {
+        --ftc-red: #E74C3C; --ftc-blue: #3498DB; --ftc-orange: #F39C12; --ftc-green: #27AE60;
+        --bg-main: #f5f5f8; --bg-card: #ffffff; --bg-sidebar: linear-gradient(180deg, #e8e8f0 0%, #f0f0f5 100%);
+        --text-primary: #1a1a2e; --text-secondary: #606080;
+        --border-subtle: rgba(0,0,0,0.08);
+        --gradient-hero: linear-gradient(135deg, #e8ecf1 0%, #dce3ed 50%, #cfd9e6 100%);
+        --gradient-red: linear-gradient(135deg, #E74C3C, #C0392B);
+        --gradient-blue: linear-gradient(135deg, #3498DB, #2980B9);
+        --shadow-card: 0 4px 16px rgba(0,0,0,0.08);
+        --radius-lg: 16px; --radius-md: 10px; --radius-sm: 8px;
+    }
+"""
+
+SHARED_CSS = """
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
     html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
     #MainMenu, footer, header { visibility: hidden; }
-    .stApp { background: var(--bg-dark); }
-    section[data-testid="stSidebar"] { background: linear-gradient(180deg, #12121c 0%, #0d0d17 100%); border-right: 1px solid var(--border-subtle); }
+    .stApp { background: var(--bg-main); }
+    section[data-testid="stSidebar"] { background: var(--bg-sidebar); border-right: 1px solid var(--border-subtle); }
     section[data-testid="stSidebar"] .stRadio label { padding: 0.7rem 1rem !important; border-radius: var(--radius-sm) !important; transition: all 0.2s ease; font-weight: 500; font-size: 0.95rem; }
-    section[data-testid="stSidebar"] .stRadio label:hover { background: rgba(255,255,255,0.05) !important; }
+    section[data-testid="stSidebar"] .stRadio label:hover { background: rgba(128,128,128,0.08) !important; }
     .hero-header { background: var(--gradient-hero); border-radius: var(--radius-lg); padding: 2.5rem 2rem; margin-bottom: 1.5rem; border: 1px solid var(--border-subtle); position: relative; overflow: hidden; }
     .hero-header::before { content: ""; position: absolute; top: -50%; right: -20%; width: 400px; height: 400px; background: radial-gradient(circle, rgba(231,76,60,0.08) 0%, transparent 70%); border-radius: 50%; }
     .hero-header::after { content: ""; position: absolute; bottom: -40%; left: -10%; width: 350px; height: 350px; background: radial-gradient(circle, rgba(52,152,219,0.06) 0%, transparent 70%); border-radius: 50%; }
     .hero-title { font-size: 2.4rem; font-weight: 800; background: linear-gradient(135deg, #E74C3C 0%, #F39C12 50%, #3498DB 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 0.3rem; position: relative; z-index: 1; }
     .hero-subtitle { font-size: 1.05rem; color: var(--text-secondary); font-weight: 400; position: relative; z-index: 1; }
     .stat-card { background: var(--bg-card); border-radius: var(--radius-md); padding: 1.25rem 1.5rem; border: 1px solid var(--border-subtle); transition: all 0.25s ease; position: relative; overflow: hidden; }
-    .stat-card:hover { border-color: rgba(255,255,255,0.12); transform: translateY(-2px); box-shadow: var(--shadow-card); }
+    .stat-card:hover { border-color: rgba(128,128,128,0.15); transform: translateY(-2px); box-shadow: var(--shadow-card); }
     .stat-card-icon { font-size: 1.8rem; margin-bottom: 0.4rem; }
     .stat-card-value { font-size: 2rem; font-weight: 700; color: var(--text-primary); line-height: 1.1; }
     .stat-card-label { font-size: 0.82rem; color: var(--text-secondary); font-weight: 500; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 0.2rem; }
@@ -45,7 +63,7 @@ def inject_css():
     .accent-red { background: var(--gradient-red); } .accent-blue { background: var(--gradient-blue); }
     .accent-orange { background: linear-gradient(135deg, #F39C12, #E67E22); } .accent-green { background: linear-gradient(135deg, #27AE60, #1E8449); }
     .section-card { background: var(--bg-card); border-radius: var(--radius-lg); padding: 1.5rem; border: 1px solid var(--border-subtle); margin-bottom: 1rem; }
-    .prediction-bar { height: 12px; border-radius: 6px; background: var(--bg-dark); overflow: hidden; margin: 0.5rem 0; border: 1px solid var(--border-subtle); }
+    .prediction-bar { height: 12px; border-radius: 6px; background: var(--bg-main); overflow: hidden; margin: 0.5rem 0; border: 1px solid var(--border-subtle); }
     .prediction-fill-red { height: 100%; background: var(--gradient-red); border-radius: 6px; transition: width 0.6s ease; }
     .prediction-fill-blue { height: 100%; background: var(--gradient-blue); border-radius: 6px; transition: width 0.6s ease; }
     .chip { display: inline-block; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.78rem; font-weight: 600; }
@@ -57,11 +75,18 @@ def inject_css():
     .stButton > button[kind="primary"] { background: var(--gradient-red) !important; border: none !important; }
     .stButton > button[kind="primary"]:hover { transform: translateY(-1px); }
     [data-testid="stMetricValue"] { font-weight: 700 !important; }
-    h1, h2, h3 { font-weight: 700 !important; letter-spacing: -0.02em; }
+    h1, h2, h3 { font-weight: 700 !important; letter-spacing: -0.02em; color: var(--text-primary) !important; }
     hr { border-color: var(--border-subtle) !important; margin: 1.5rem 0 !important; }
     [data-testid="stAlert"] { border-radius: var(--radius-md) !important; border: none !important; }
-</style>
-""", unsafe_allow_html=True)
+    p, span, div, label, caption { color: var(--text-primary); }
+    .stSelectbox label, .stSlider label { color: var(--text-primary) !important; }
+"""
+
+def inject_css():
+    """Inject theme-aware CSS. Dark by default, light if session_state says so."""
+    dark = st.session_state.get("dark_mode", True)
+    theme_css = DARK_CSS if dark else LIGHT_CSS
+    st.markdown(f"<style>{theme_css}{SHARED_CSS}</style>", unsafe_allow_html=True)
 
 
 # ---------------------------------------------------------------------------
@@ -142,7 +167,7 @@ def hero_header(title, subtitle):
 
 
 def render_sidebar(matches, teams):
-    """Render the shared sidebar on all pages."""
+    """Render the shared sidebar on all pages, with dark/light toggle."""
     with st.sidebar:
         st.markdown("""
         <div style="text-align:center; padding:0.5rem 0 1.5rem 0;">
@@ -151,6 +176,12 @@ def render_sidebar(matches, teams):
             <div style="font-size:0.75rem;color:#606080;font-weight:500;margin-top:0.15rem;">BY KAIVALYA SINGH</div>
         </div>
         """, unsafe_allow_html=True)
+
+        # Dark/light toggle
+        dark = st.session_state.get("dark_mode", True)
+        st.toggle("🌙 Dark Mode" if dark else "☀️ Light Mode", value=dark, key="dark_mode")
+
+        st.markdown("---")
         st.caption(f"📊 {len(matches):,} matches\n\n🤖 {len(teams):,} teams\n\n📅 {matches['event_key'].nunique()} events\n\n🌎 {matches['region'].nunique()} regions")
         st.markdown("---")
         st.markdown("[📖 GitHub](https://github.com/kaivalya-cyber/ftc-analytics-dataset)  |  [📄 Paper](dataset_description.md)\n\nBuilt with ❤️ using Streamlit")
