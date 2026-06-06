@@ -141,7 +141,19 @@ The dashboard includes:
 - **📅 Event Browser** — Browse match results and rankings for any event
 - **🏆 OPR Leaderboard** — Top teams ranked by Offensive Power Rating
 - **📈 ELO Ratings** — Rolling ELO leaderboard and per-team history tracker
+- **🤝 Head-to-Head** — Compare any two teams' full match history, score timeline, and win/loss record
+- **⚡ Upset Analysis** — Discover when underdogs win — upset rates by season, qual vs playoff, biggest upsets
 - **🎯 Match Predictor** — 2v2 alliance prediction using OPR + ELO blended probability
+
+### Upset Statistics
+
+| Split | OPR Upset Rate | ELO Upset Rate |
+|:---|---:|---:|
+| Overall | 20.9% | 16.5% |
+| Qualification | 17.5% | 15.2% |
+| Playoff | 40.8% | 24.4% |
+
+*An "upset" is when the predicted favorite (by summed OPR or average ELO) loses. Playoffs have 2.3× more upsets than qualifications.*
 
 ## 🌐 Streamlit Cloud Deployment
 
@@ -241,6 +253,7 @@ ftc-analytics-dataset/
 │   ├── win_prediction_benchmark.csv
 │   └── alliance_strength_benchmark.csv
 ├── dashboard.py           # Interactive Streamlit dashboard
+├── kaggle-metadata.json   # Kaggle dataset publishing metadata
 ├── exploration.ipynb
 ├── dataset_description.md
 ├── LICENSE
@@ -266,3 +279,21 @@ If you use this dataset in your research, please cite:
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 Data sourced from [The Orange Alliance](https://theorangealliance.org) and [FIRST FTC Events API](https://ftc-events.firstinspires.org/services/API).
+
+## Publishing to Kaggle / Hugging Face
+
+### Kaggle
+```bash
+# Install Kaggle CLI and authenticate
+pip install kaggle
+kaggle datasets create -p . --dir-mode skip
+```
+The `kaggle-metadata.json` is already configured. Update the `id` field with your Kaggle username.
+
+### Hugging Face
+```bash
+pip install huggingface_hub
+huggingface-cli login
+# Upload dataset
+data/processed/*.csv to a Hugging Face dataset repo
+```

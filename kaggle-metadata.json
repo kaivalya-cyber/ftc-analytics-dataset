@@ -1,0 +1,15 @@
+{
+  "title": "FTC Open Analytics Dataset",
+  "id": "kaivalya-cyber/ftc-analytics-dataset",
+  "licenses": [{"name": "MIT"}],
+  "description": "A clean, structured dataset of FIRST Tech Challenge (FTC) match results spanning 6 seasons (2018-19 through 2023-24) with 1,762 matches, 902 unique teams, and 53 events across 10 regions. Includes computed metrics (OPR, NP-OPR, CCWM, ELO ratings) and baseline ML benchmarks for win prediction (5 models up to 88.7% accuracy) and alliance strength estimation.",
+  "resources": [
+    {"path": "data/processed/matches.csv", "description": "Match-level results with scores, teams, and outcomes"},
+    {"path": "data/processed/teams.csv", "description": "Team metadata (name, country, state, rookie year)"},
+    {"path": "data/processed/team_events.csv", "description": "Team-event stats with OPR, CCWM, rankings"},
+    {"path": "data/processed/team_elo.csv", "description": "Per-match ELO rating updates for all teams"},
+    {"path": "data/processed/current_elo.csv", "description": "Current ELO rating per team"}
+  ],
+  "keywords": ["first-tech-challenge", "ftc", "robotics", "match-data", "sports-analytics", "opr", "elo"],
+  "citation": "@misc{singh2026ftc,\n  author = {Kaivalya Singh},\n  title = {FTC Open Analytics Dataset},\n  year = {2026},\n  howpublished = {\\url{https://github.com/kaivalya-cyber/ftc-analytics-dataset}}\n}"
+}
