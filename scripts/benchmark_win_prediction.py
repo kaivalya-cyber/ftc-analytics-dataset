@@ -186,17 +186,33 @@ def main():
     gb_pred = gb.predict(X_test)
     gb_prob = gb.predict_proba(X_test)[:, 1]
     
-    # 4. Random Forest
-    rf = RandomForestClassifier(n_estimators=100, random_state=42)
+    # 4. Random Forest (with tuned params if available)
+    rf_params_override = {}
+    tuned_json = Path("results/tuned_params.json")
+    if tuned_json.exists():
+        import json
+        with open(tuned_json) as f:
+            tuned = json.load(f)
+        if "RandomForest" in tuned:
+            rf_params_override = tuned["RandomForest"]["best_params"]
+            print(f"  Using tuned RF params: {rf_params_override}")
+    rf = RandomForestClassifier(random_state=42, **rf_params_override)
     rf.fit(X_train, y_train)
     rf_pred = rf.predict(X_test)
     rf_prob = rf.predict_proba(X_test)[:, 1]
     
-    # 5. XGBoost
+    # 5. XGBoost (with tuned params if available)
     xgb_pred, xgb_prob = None, None
     acc_xgb, auc_xgb, brier_xgb, logloss_xgb = None, None, None, None
     if HAS_XGBOOST:
-        xgb = XGBClassifier(n_estimators=100, random_state=42, verbosity=0)
+        xgb_params_override = {}
+        if tuned_json.exists():
+            with open(tuned_json) as f:
+                tuned = json.load(f)
+            if "XGBoost" in tuned:
+                xgb_params_override = tuned["XGBoost"]["best_params"]
+                print(f"  Using tuned XGB params: {xgb_params_override}")
+        xgb = XGBClassifier(random_state=42, verbosity=0, **xgb_params_override)
         xgb.fit(X_train, y_train)
         xgb_pred = xgb.predict(X_test)
         xgb_prob = xgb.predict_proba(X_test)[:, 1]
@@ -221,12 +237,12 @@ def main():
         {"Model": "OPR Difference Baseline", "Accuracy": acc_opr, "AUC-ROC": auc_opr, "Brier Score": brier_opr, "Log Loss": logloss_opr},
         {"Model": "Logistic Regression", "Accuracy": acc_lr, "AUC-ROC": auc_lr, "Brier Score": brier_lr, "Log Loss": logloss_lr},
         {"Model": "Gradient Boosted Trees", "Accuracy": acc_gb, "AUC-ROC": auc_gb, "Brier Score": brier_gb, "Log Loss": logloss_gb},
-        {"Model": "Random Forest", "Accuracy": acc_rf, "AUC-ROC": auc_rf, "Brier Score": brier_rf, "Log Loss": logloss_rf},
+        {"Model": "Random Forest (tuned)", "Accuracy": acc_rf, "AUC-ROC": auc_rf, "Brier Score": brier_rf, "Log Loss": logloss_rf},
     ]
     
     if HAS_XGBOOST and xgb_pred is not None:
         results.append(
-            {"Model": "XGBoost", "Accuracy": acc_xgb, "AUC-ROC": auc_xgb, "Brier Score": brier_xgb, "Log Loss": logloss_xgb}
+            {"Model": "XGBoost (tuned)", "Accuracy": acc_xgb, "AUC-ROC": auc_xgb, "Brier Score": brier_xgb, "Log Loss": logloss_xgb}
         )
     
     results_df = pd.DataFrame(results)

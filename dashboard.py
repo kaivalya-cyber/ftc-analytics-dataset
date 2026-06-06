@@ -378,6 +378,13 @@ for _, row in team_events.iterrows():
 for tn in wr_lookup:
     wr_lookup[tn] = wr_lookup[tn] / wr_counts[tn]
 
+# Build ELO lookup: (team_number) -> current ELO rating
+elo_lookup = {}
+if current_elo is not None:
+    for _, row in current_elo.iterrows():
+        elo_lookup[int(row["team_number"])] = row["current_elo"]
+
+
 # Pre-compute OPR diff std for sigmoid scaling
 all_diffs = []
 for _, row in matches.iterrows():
@@ -922,7 +929,8 @@ elif page == "🎯 Match Predictor":
     <div class="hero-header">
         <div class="hero-title" style="font-size:1.8rem;">🎯 Match Predictor</div>
         <div class="hero-subtitle">
-            Predict the winner of a theoretical match based on each team's average OPR and historical win rate.
+            Predict the winner of a theoretical match using OPR, ELO ratings, and historical win rates.
+            ELO ratings are updated after every match using the standard K=32 formula.
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -963,51 +971,65 @@ elif page == "🎯 Match Predictor":
         def get_team_stats(tn):
             opr = opr_lookup.get(tn)
             wr = wr_lookup.get(tn)
+            elo = elo_lookup.get(tn) if elo_lookup else None
             if opr is None:
                 st.warning(f"⚠️ Team {tn} has no OPR data — using 0.0")
                 opr = 0.0
             if wr is None:
                 wr = 0.5
-            return opr, wr
+            if elo is None and elo_lookup:
+                elo = 1500  # default starting ELO
+            return opr, wr, elo
 
         red_oprs = [get_team_stats(t)[0] for t in red_teams]
         blue_oprs = [get_team_stats(t)[0] for t in blue_teams]
         red_wrs = [get_team_stats(t)[1] for t in red_teams]
         blue_wrs = [get_team_stats(t)[1] for t in blue_teams]
+        red_elos = [get_team_stats(t)[2] for t in red_teams]
+        blue_elos = [get_team_stats(t)[2] for t in blue_teams]
 
         red_opr_sum = sum(red_oprs)
         blue_opr_sum = sum(blue_oprs)
         opr_diff = red_opr_sum - blue_opr_sum
 
-        # Logistic probability
-        prob_red = 1 / (1 + np.exp(-opr_diff / OPR_SCALE))
+        # ELO-based prediction
+        red_elo_avg = (sum(e for e in red_elos if e is not None) / sum(1 for e in red_elos if e is not None)) if any(e is not None for e in red_elos) else 1500
+        blue_elo_avg = (sum(e for e in blue_elos if e is not None) / sum(1 for e in blue_elos if e is not None)) if any(e is not None for e in blue_elos) else 1500
+        elo_diff = red_elo_avg - blue_elo_avg
+
+        # Logistic probability (blend OPR + ELO)
+        prob_opr = 1 / (1 + np.exp(-opr_diff / OPR_SCALE))
+        prob_elo = 1 / (1 + np.exp(-elo_diff / 200))  # 200-point ELO scale
+        prob_red = 0.7 * prob_opr + 0.3 * prob_elo
         prob_blue = 1 - prob_red
 
-        # OPR comparison chart
-        st.markdown("### 📊 OPR Comparison")
+        # OPR + ELO comparison
+        st.markdown("### 📊 Team Ratings")
         st.markdown(f"""
         <div style="display:flex; align-items:center; gap:1rem; margin:0.5rem 0 1.5rem 0;">
-            <div style="flex:{prob_red}; min-width:60px;">
-                <div style="font-weight:700; font-size:1.1rem; color:#E74C3C;">🔴 {red_opr_sum:.1f}</div>
+            <div style="flex:{prob_red}; min-width:80px;">
+                <div style="font-weight:700; font-size:1.1rem; color:#E74C3C;">🔴 OPR {red_opr_sum:.1f}</div>
                 <div class="prediction-bar">
                     <div class="prediction-fill-red" style="width:100%;"></div>
                 </div>
                 <div style="font-size:0.75rem; color:var(--text-secondary); margin-top:0.2rem;">
-                    Team {r1}: {red_oprs[0]:.1f} OPR<br>
-                    Team {r2}: {red_oprs[1]:.1f} OPR
+                    Avg ELO: {red_elo_avg:.0f}<br>
+                    Team {r1}: {red_oprs[0]:.1f} OPR / ELO {red_elos[0] if red_elos[0] else '—'}<br>
+                    Team {r2}: {red_oprs[1]:.1f} OPR / ELO {red_elos[1] if red_elos[1] else '—'}
                 </div>
             </div>
             <div style="font-weight:600; color:var(--text-secondary); font-size:0.85rem; text-align:center;">
                 vs
             </div>
-            <div style="flex:{prob_blue}; min-width:60px;">
-                <div style="font-weight:700; font-size:1.1rem; color:#3498DB;">🔵 {blue_opr_sum:.1f}</div>
+            <div style="flex:{prob_blue}; min-width:80px;">
+                <div style="font-weight:700; font-size:1.1rem; color:#3498DB;">🔵 OPR {blue_opr_sum:.1f}</div>
                 <div class="prediction-bar">
                     <div class="prediction-fill-blue" style="width:100%;"></div>
                 </div>
                 <div style="font-size:0.75rem; color:var(--text-secondary); margin-top:0.2rem;">
-                    Team {b1}: {blue_oprs[0]:.1f} OPR<br>
-                    Team {b2}: {blue_oprs[1]:.1f} OPR
+                    Avg ELO: {blue_elo_avg:.0f}<br>
+                    Team {b1}: {blue_oprs[0]:.1f} OPR / ELO {blue_elos[0] if blue_elos[0] else '—'}<br>
+                    Team {b2}: {blue_oprs[1]:.1f} OPR / ELO {blue_elos[1] if blue_elos[1] else '—'}
                 </div>
             </div>
         </div>
@@ -1030,7 +1052,7 @@ elif page == "🎯 Match Predictor":
                 {max(prob_red, prob_blue):.1%}
             </div>
             <div style="color:var(--text-secondary); margin-top:0.3rem;">
-                confidence · expected margin: ~{abs(opr_diff):.0f} points
+                confidence · OPR diff: {opr_diff:+.0f} · ELO diff: {elo_diff:+.0f}
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -1061,14 +1083,17 @@ elif page == "🎯 Match Predictor":
         # Detailed stats
         st.markdown("### 📋 Team Details")
         detail_cols = st.columns(4)
-        for i, (t, opr, wr) in enumerate([(r1, red_oprs[0], red_wrs[0]), (r2, red_oprs[1], red_wrs[1]),
-                                           (b1, blue_oprs[0], blue_wrs[0]), (b2, blue_oprs[1], blue_wrs[1])]):
+        for i, (t, opr, wr, elo) in enumerate([(r1, red_oprs[0], red_wrs[0], red_elos[0]), 
+                                                 (r2, red_oprs[1], red_wrs[1], red_elos[1]),
+                                                 (b1, blue_oprs[0], blue_wrs[0], blue_elos[0]), 
+                                                 (b2, blue_oprs[1], blue_wrs[1], blue_elos[1])]):
             alliance = "🔴" if i < 2 else "🔵"
+            elo_str = f"{elo:.0f}" if elo is not None else "—"
             with detail_cols[i]:
                 st.markdown(f"""
                 <div class="stat-card" style="padding:0.8rem 1rem;">
                     <div style="font-weight:600;">{alliance} Team {t}</div>
                     <div style="font-size:1.3rem; font-weight:700; margin-top:0.3rem;">OPR {opr:.1f}</div>
-                    <div style="color:var(--text-secondary); font-size:0.8rem;">Win Rate {wr:.0%}</div>
+                    <div style="color:var(--text-secondary); font-size:0.8rem;">ELO {elo_str} · WR {wr:.0%}</div>
                 </div>
                 """, unsafe_allow_html=True)

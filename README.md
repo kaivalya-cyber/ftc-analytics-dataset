@@ -105,8 +105,10 @@ A clean, structured, public dataset of FIRST Tech Challenge (FTC) match results 
 | OPR Difference Baseline | 0.8254 | 0.8979 | 0.1584 | 0.4905 |
 | Logistic Regression | 0.8869 | 0.9412 | 0.0938 | 0.3086 |
 | Gradient Boosted Trees | 0.7063 | 0.8159 | 0.1830 | 0.5456 |
-| Random Forest | 0.6508 | 0.7752 | 0.1965 | 0.5780 |
-| XGBoost | 0.6746 | 0.7734 | 0.2163 | 0.6713 |
+| Random Forest (tuned) | 0.7103 | 0.8016 | 0.1955 | 0.5774 |
+| XGBoost (tuned) | 0.8175 | 0.8611 | 0.1960 | 0.5813 |
+
+*Hyperparameters tuned via GridSearchCV with TimeSeriesSplit. See `results/tuned_params.json`.*
 
 ### Alliance Strength Prediction
 
@@ -124,12 +126,34 @@ cd ftc-analytics-dataset
 streamlit run dashboard.py
 ```
 
+**Or deploy to Streamlit Cloud** for a public URL (free):
+
+1. Go to **[share.streamlit.io](https://share.streamlit.io)** and sign in with GitHub
+2. Click **"New app"** → select repo `kaivalya-cyber/ftc-analytics-dataset`
+3. Set **Main file path** to `dashboard.py`
+4. Click **"Deploy!"**
+
+The `.streamlit/config.toml` already sets the dark FTC theme.
+
 The dashboard includes:
 - **🏠 Home** — Dataset overview with season stats and score distributions
-- **🔍 Team Explorer** — Search any team, view OPR/CCWM trends and event history
+- **🔍 Team Explorer** — Search any team, view OPR/CCWM/ELO trends and event history
 - **📅 Event Browser** — Browse match results and rankings for any event
 - **🏆 OPR Leaderboard** — Top teams ranked by Offensive Power Rating
-- **🎯 Match Predictor** — Pick 2v2 alliances and get a real-time win probability
+- **📈 ELO Ratings** — Rolling ELO leaderboard and per-team history tracker
+- **🎯 Match Predictor** — 2v2 alliance prediction using OPR + ELO blended probability
+
+## 🌐 Streamlit Cloud Deployment
+
+To deploy the dashboard publicly (free tier):
+
+1. Go to **[share.streamlit.io](https://share.streamlit.io)** → sign in with GitHub
+2. Click **"New app"**
+3. Select repo: `kaivalya-cyber/ftc-analytics-dataset`
+4. Branch: `main`, Main file path: `dashboard.py`
+5. Click **"Deploy!"**
+
+Configuration (`.streamlit/config.toml`) is already committed with the dark FTC theme.
 
 ## Quick Start
 
@@ -145,6 +169,15 @@ git clone https://github.com/kaivalya-cyber/ftc-analytics-dataset.git
 cd ftc-analytics-dataset
 pip install -r requirements.txt
 ```
+
+Streamlit Cloud is the easiest way to deploy.
+
+1. Go to **[share.streamlit.io](https://share.streamlit.io)** and sign in with GitHub
+2. Click **"New app"** → select repo `kaivalya-cyber/ftc-analytics-dataset`
+3. Set **Main file path** to `dashboard.py`
+4. Click **"Deploy!"**
+
+The `.streamlit/config.toml` already sets the dark FTC theme.
 
 ### Running the Pipeline
 
