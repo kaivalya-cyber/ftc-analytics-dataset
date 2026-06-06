@@ -100,12 +100,28 @@ A clean, structured, public dataset of FIRST Tech Challenge (FTC) match results 
 | Naive OPR Sum | 0.2807 | 0.0483 | 1.3065 | 0.6154 | 0.8462 |
 | Linear Regression | 0.3224 | 0.0224 | 1.0987 | 0.6154 | 0.9231 |
 
+## 🚀 Interactive Dashboard
+
+Launch the premium Streamlit dashboard to explore the dataset interactively:
+
+```bash
+cd ftc-analytics-dataset
+streamlit run dashboard.py
+```
+
+The dashboard includes:
+- **🏠 Home** — Dataset overview with season stats and score distributions
+- **🔍 Team Explorer** — Search any team, view OPR/CCWM trends and event history
+- **📅 Event Browser** — Browse match results and rankings for any event
+- **🏆 OPR Leaderboard** — Top teams ranked by Offensive Power Rating
+- **🎯 Match Predictor** — Pick 2v2 alliances and get a real-time win probability
+
 ## Quick Start
 
 ### Prerequisites
 
 - Python 3.9+
-- Packages: `numpy`, `pandas`, `scipy`, `scikit-learn`, `requests`, `tqdm`, `python-dotenv`, `jupyter` (for notebook)
+- Packages: `numpy`, `pandas`, `scipy`, `scikit-learn`, `requests`, `tqdm`, `python-dotenv`, `jupyter`, `streamlit`, `matplotlib`, `seaborn`
 
 ### Installation
 
@@ -171,6 +187,7 @@ ftc-analytics-dataset/
 ├── results/
 │   ├── win_prediction_benchmark.csv
 │   └── alliance_strength_benchmark.csv
+├── dashboard.py           # Interactive Streamlit dashboard
 ├── exploration.ipynb
 ├── dataset_description.md
 ├── LICENSE
