@@ -13,3 +13,5 @@ xgboost>=2.0.0
 fpdf2>=2.8.0
 plotly>=5.18.0
 kaleido>=0.2.1
+imageio>=2.34.0
+pytest>=8.0.0
