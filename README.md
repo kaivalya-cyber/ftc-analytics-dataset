@@ -157,6 +157,8 @@ The dashboard includes:
 - **📈 Season Progression** — Track any team's OPR/ELO year-over-year with dual-axis charts and career trend metrics
 - **🏟️ Interactive Bracket** — Build a knockout tournament bracket, simulate round by round, and see a visual bracket tree with champion card
 - **🌎 Regional Analysis** — Compare FTC regions — match volume, scoring profiles, team performance, and competitive balance by region
+- **🚩 Penalty Analysis** — Discover penalty contributions — which teams benefit or suffer from penalties, seasonal trends, and impact on win rate
+- **📈 Season Trends** — Year-over-year macro trends: scoring, competitiveness, regional growth, and team participation across 6 seasons
 
 The dashboard features a **dark/light mode toggle** (🌙/☀️) in the sidebar, persisted across pages via session state.
 
@@ -309,7 +311,9 @@ ftc-analytics-dataset/
 │   ├── 15_📈_Season_Progression.py
 │   ├── 16_🎪_Match_Spotlight.py
 │   ├── 17_🏟️_Interactive_Bracket.py
-│   └── 18_🌎_Regional_Analysis.py
+│   ├── 18_🌎_Regional_Analysis.py
+│   ├── 19_🚩_Penalty_Analysis.py
+│   └── 20_📈_Season_Trends.py
 ├── kaggle-metadata.json   # Kaggle dataset publishing metadata
 ├── exploration.ipynb
 ├── dataset_description.md
