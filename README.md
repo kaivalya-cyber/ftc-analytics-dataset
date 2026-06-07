@@ -152,6 +152,8 @@ The dashboard includes:
 - **🥇 Player of the Season** — Composite power rankings (OPR + ELO + Win Rate) with season-end ELO accuracy
 - **📊 Team Comparison** — Compare 2-4 teams side-by-side with radar charts, stat cards, and metric bar charts
 - **🗺️ Team Landscape** — Interactive scatter plot of every team by OPR vs ELO, sized by win rate, colored by season
+- **🎪 Match Spotlight** — The closest, highest-scoring, and most exciting matches with upset badges, detail cards, and excitement scatter map
+- **📈 Season Progression** — Track any team's OPR/ELO year-over-year with dual-axis charts and career trend metrics
 
 The dashboard features a **dark/light mode toggle** (🌙/☀️) in the sidebar, persisted across pages via session state.
 
@@ -178,6 +180,14 @@ The dashboard is a **multi-page Streamlit app** — pages live in `pages/` with 
 | Playoff | 40.8% | 24.4% |
 
 *An "upset" is when the predicted favorite (by summed OPR or average ELO) loses. Playoffs have 2.3× more upsets than qualifications.*
+
+### Match Replay Animation
+
+![Closest matches bar chart — 30 closest matches with score differential](images/closest_matches.png)
+
+![Match Replay GIF — animated cumulative score timeline](images/match_replay.gif)
+
+The `scripts/match_replay.py` script generates an animated GIF showing cumulative score timelines for the 30 closest matches in the dataset. Each frame adds another match, showing how red and blue alliance scores stack up as the replay progresses.
 
 ## 🌐 Streamlit Cloud Deployment
 
@@ -290,7 +300,11 @@ ftc-analytics-dataset/
 │   ├── 09_🏆_Season_Simulator.py
 │   ├── 10_🥇_Player_of_the_Season.py
 │   ├── 11_📊_Team_Comparison.py
-│   └── 12_🗺️_Team_Landscape.py
+│   ├── 12_🗺️_Team_Landscape.py
+│   ├── 13_🏟️_Live_Scoreboard.py
+│   ├── 14_🧬_Team_Clustering.py
+│   ├── 15_📈_Season_Progression.py
+│   └── 16_🎪_Match_Spotlight.py
 ├── kaggle-metadata.json   # Kaggle dataset publishing metadata
 ├── exploration.ipynb
 ├── dataset_description.md

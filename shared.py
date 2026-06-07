@@ -70,6 +70,7 @@ SHARED_CSS = """
     .chip-red { background: rgba(231,76,60,0.15); color: #E74C3C; border: 1px solid rgba(231,76,60,0.3); }
     .chip-blue { background: rgba(52,152,219,0.15); color: #3498DB; border: 1px solid rgba(52,152,219,0.3); }
     .chip-green { background: rgba(39,174,96,0.15); color: #27AE60; border: 1px solid rgba(39,174,96,0.3); }
+    .chip-orange { background: rgba(243,156,18,0.15); color: #F39C12; border: 1px solid rgba(243,156,18,0.3); }
     [data-testid="stDataFrame"] { border-radius: var(--radius-md) !important; overflow: hidden; border: 1px solid var(--border-subtle) !important; }
     .stButton > button { border-radius: var(--radius-sm) !important; font-weight: 600 !important; }
     .stButton > button[kind="primary"] { background: var(--gradient-red) !important; border: none !important; }
