@@ -4,6 +4,7 @@ A clean, structured, public dataset of FIRST Tech Challenge (FTC) match results 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Pytest](https://github.com/kaivalya-cyber/ftc-analytics-dataset/actions/workflows/pytest.yml/badge.svg)](https://github.com/kaivalya-cyber/ftc-analytics-dataset/actions/workflows/pytest.yml)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/kaivalya-cyber/ftc-analytics-dataset)
 
 ## Dataset Statistics
 
@@ -159,6 +160,7 @@ The dashboard includes:
 - **🌎 Regional Analysis** — Compare FTC regions — match volume, scoring profiles, team performance, and competitive balance by region
 - **🚩 Penalty Analysis** — Discover penalty contributions — which teams benefit or suffer from penalties, seasonal trends, and impact on win rate
 - **📈 Season Trends** — Year-over-year macro trends: scoring, competitiveness, regional growth, and team participation across 6 seasons
+- **🤝 Alliance Builder** — Build a 2-team alliance with synergy analysis, historical record, complementary strength radar, and top alliances comparison
 
 The dashboard features a **dark/light mode toggle** (🌙/☀️) in the sidebar, persisted across pages via session state.
 
@@ -313,7 +315,8 @@ ftc-analytics-dataset/
 │   ├── 17_🏟️_Interactive_Bracket.py
 │   ├── 18_🌎_Regional_Analysis.py
 │   ├── 19_🚩_Penalty_Analysis.py
-│   └── 20_📈_Season_Trends.py
+│   ├── 20_📈_Season_Trends.py
+│   └── 21_🤝_Alliance_Builder.py
 ├── kaggle-metadata.json   # Kaggle dataset publishing metadata
 ├── exploration.ipynb
 ├── dataset_description.md
