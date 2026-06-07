@@ -3,6 +3,7 @@
 A clean, structured, public dataset of FIRST Tech Challenge (FTC) match results spanning the 2018-19 through 2023-24 seasons, with computed performance metrics (OPR, CCWM, NP-OPR) and baseline machine learning benchmarks for match outcome prediction and playoff alliance strength estimation.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Pytest](https://github.com/kaivalya-cyber/ftc-analytics-dataset/actions/workflows/pytest.yml/badge.svg)](https://github.com/kaivalya-cyber/ftc-analytics-dataset/actions/workflows/pytest.yml)
 
 ## Dataset Statistics
 
@@ -154,6 +155,8 @@ The dashboard includes:
 - **🗺️ Team Landscape** — Interactive scatter plot of every team by OPR vs ELO, sized by win rate, colored by season
 - **🎪 Match Spotlight** — The closest, highest-scoring, and most exciting matches with upset badges, detail cards, and excitement scatter map
 - **📈 Season Progression** — Track any team's OPR/ELO year-over-year with dual-axis charts and career trend metrics
+- **🏟️ Interactive Bracket** — Build a knockout tournament bracket, simulate round by round, and see a visual bracket tree with champion card
+- **🌎 Regional Analysis** — Compare FTC regions — match volume, scoring profiles, team performance, and competitive balance by region
 
 The dashboard features a **dark/light mode toggle** (🌙/☀️) in the sidebar, persisted across pages via session state.
 
@@ -304,7 +307,9 @@ ftc-analytics-dataset/
 │   ├── 13_🏟️_Live_Scoreboard.py
 │   ├── 14_🧬_Team_Clustering.py
 │   ├── 15_📈_Season_Progression.py
-│   └── 16_🎪_Match_Spotlight.py
+│   ├── 16_🎪_Match_Spotlight.py
+│   ├── 17_🏟️_Interactive_Bracket.py
+│   └── 18_🌎_Regional_Analysis.py
 ├── kaggle-metadata.json   # Kaggle dataset publishing metadata
 ├── exploration.ipynb
 ├── dataset_description.md
